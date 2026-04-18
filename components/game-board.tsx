@@ -119,12 +119,13 @@ const fields: FieldKey[] = [
   "playoffAppearances",
 ];
 
-const numericFields = new Set<FieldKey>(["draftYear", "draftPick", "heightCm", "careerYears", "ppg", "playoffAppearances"]);
+const numericFields = new Set<FieldKey>(["jersey", "draftYear", "draftPick", "heightCm", "careerYears", "ppg", "playoffAppearances"]);
 
 const numericRule: Record<
-  "draftYear" | "draftPick" | "heightCm" | "careerYears" | "ppg" | "playoffAppearances",
+  "jersey" | "draftYear" | "draftPick" | "heightCm" | "careerYears" | "ppg" | "playoffAppearances",
   { near: number; close: number; step: number; decimals: number }
 > = {
+  jersey: { near: 1, close: 3, step: 1, decimals: 0 },
   draftYear: { near: 1, close: 3, step: 1, decimals: 0 },
   draftPick: { near: 3, close: 10, step: 1, decimals: 0 },
   heightCm: { near: 2, close: 6, step: 1, decimals: 0 },
@@ -156,9 +157,16 @@ function formatValue(value: number, decimals: number): string {
   return decimals === 0 ? String(Math.round(value)) : value.toFixed(decimals);
 }
 
+function parseJersey(value: string): number | null {
+  const v = value.trim();
+  if (!/^\d+$/.test(v)) return null;
+  const n = Number.parseInt(v, 10);
+  return Number.isNaN(n) ? null : n;
+}
+
 function inferNumericRange(
   rows: GuessHistory[],
-  key: keyof Pick<GuessedPlayer, "draftYear" | "draftPick" | "heightCm" | "careerYears" | "ppg" | "playoffAppearances">,
+  key: "jersey" | "draftYear" | "draftPick" | "heightCm" | "careerYears" | "ppg" | "playoffAppearances",
 ): string {
   const rule = numericRule[key];
   let lower = Number.NEGATIVE_INFINITY;
@@ -167,7 +175,7 @@ function inferNumericRange(
 
   for (const row of rows) {
     const feedback = row.feedback[key as FieldKey];
-    const guessedValue = row.player[key];
+    const guessedValue = key === "jersey" ? parseJersey(row.player.jersey) : row.player[key];
 
     if (guessedValue === null || feedback.status === "unknown") continue;
     if (feedback.status === "exact") {
@@ -211,8 +219,11 @@ function inferNumericRange(
 function inferPinnedValue(rows: GuessHistory[], key: FieldKey): string {
   if (rows.length === 0) return "?";
 
-  if (["draftYear", "draftPick", "heightCm", "careerYears", "ppg", "playoffAppearances"].includes(key)) {
-    return inferNumericRange(rows, key as "draftYear" | "draftPick" | "heightCm" | "careerYears" | "ppg" | "playoffAppearances");
+  if (["jersey", "draftYear", "draftPick", "heightCm", "careerYears", "ppg", "playoffAppearances"].includes(key)) {
+    return inferNumericRange(
+      rows,
+      key as "jersey" | "draftYear" | "draftPick" | "heightCm" | "careerYears" | "ppg" | "playoffAppearances",
+    );
   }
 
   for (const row of rows) {
@@ -535,10 +546,10 @@ export function GameBoard() {
 function FeedbackPill({ feedback, numeric }: { feedback: ValueFeedback; numeric: boolean }) {
   let symbol = "?";
   if (feedback.status === "exact") symbol = "✓";
-  else if (feedback.status === "far") symbol = "✕";
-  else if ((feedback.status === "near" || feedback.status === "close") && !numeric) symbol = "≈";
   else if (numeric && feedback.direction === "up") symbol = "↑";
   else if (numeric && feedback.direction === "down") symbol = "↓";
+  else if (feedback.status === "far") symbol = "✕";
+  else if (feedback.status === "near" || feedback.status === "close") symbol = "≈";
 
   return (
     <span
@@ -561,11 +572,11 @@ function RuleHelpButton() {
       </button>
       <div className="pointer-events-none invisible absolute right-0 top-11 z-40 w-[360px] rounded-2xl border border-white/15 bg-slate-950/95 p-4 text-xs leading-5 text-zinc-200 opacity-0 shadow-2xl transition duration-150 group-hover:visible group-hover:opacity-100 md:w-[460px]">
         <p className="mb-2 text-sm font-semibold text-white">符号含义</p>
-        <p>1. 可量化字段（选秀年/顺位、身高、生涯长度、得分、季后赛次数）：`↑` 目标更大，`↓` 目标更小，`✓` 完全命中。</p>
-        <p>2. 不可量化字段（队伍、号码、国家、位置）：`✓` 命中，`✕` 不匹配，`≈` 接近（主要用于位置大类接近）。</p>
+        <p>1. 可量化字段（号码、选秀年/顺位、身高、生涯长度、得分、季后赛次数）：`↑` 目标更大，`↓` 目标更小，`✓` 完全命中。</p>
+        <p>2. 不可量化字段（队伍、国家、位置）：`✓` 命中，`✕` 不匹配，`≈` 接近（主要用于位置大类接近）。</p>
         <p>3. 颜色：绿色 = 命中，亮绿 = 非常接近，蓝色 = 接近，红色 = 差距大，灰色 = 数据未知。</p>
         <p>4. 位置接近规则：后卫组（PG/SG）、锋线组（SF）、内线组（PF/C），同组记为接近。</p>
-        <p>5. 数值接近阈值：身高 ±2/±6，生涯长度 ±1/±3，得分 ±1.5/±4，季后赛次数 ±1/±3，选秀年份 ±1/±3，选秀顺位 ±3/±10（前者非常接近，后者接近）。</p>
+        <p>5. 数值接近阈值：号码 ±1/±3，身高 ±2/±6，生涯长度 ±1/±3，得分 ±1.5/±4，季后赛次数 ±1/±3，选秀年份 ±1/±3，选秀顺位 ±3/±10（前者非常接近，后者接近）。</p>
       </div>
     </div>
   );

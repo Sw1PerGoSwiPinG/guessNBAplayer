@@ -5,6 +5,7 @@ const EXACT: ValueFeedback = { status: "exact" };
 const UNKNOWN: ValueFeedback = { status: "unknown" };
 
 const THRESHOLDS = {
+  jersey: { near: 1, close: 3 },
   heightCm: { near: 2, close: 6 },
   careerYears: { near: 1, close: 3 },
   ppg: { near: 1.5, close: 4 },
@@ -51,19 +52,32 @@ function compareNumeric(
   return { status: "far", direction };
 }
 
+function parseJerseyNumber(value: string): number | null {
+  const trimmed = value.trim();
+  if (!trimmed) return null;
+  if (!/^\d+$/.test(trimmed)) return null;
+  const parsed = Number.parseInt(trimmed, 10);
+  return Number.isNaN(parsed) ? null : parsed;
+}
+
 export function buildGuessFeedback(guessPlayerId: string, targetPlayerId: string): GuessFeedback {
   const guess = getPlayerById(guessPlayerId);
   const target = getPlayerById(targetPlayerId);
   if (!guess || !target) {
     throw new Error("Invalid player for feedback comparison.");
   }
+  const guessedJersey = parseJerseyNumber(guess.jersey);
+  const targetJersey = parseJerseyNumber(target.jersey);
 
   return {
     guessedPlayerId: guess.playerId,
     guessedName: guess.enName,
     isCorrect: guess.playerId === target.playerId,
     team: compareExact(guess.team, target.team),
-    jersey: compareExact(guess.jersey, target.jersey),
+    jersey:
+      guessedJersey !== null && targetJersey !== null
+        ? compareNumeric(guessedJersey, targetJersey, THRESHOLDS.jersey.near, THRESHOLDS.jersey.close)
+        : compareExact(guess.jersey, target.jersey),
     position: comparePosition(guess, target),
     country: compareExact(guess.country, target.country),
     draftYear: compareNumeric(guess.draftYear, target.draftYear, THRESHOLDS.draftYear.near, THRESHOLDS.draftYear.close),

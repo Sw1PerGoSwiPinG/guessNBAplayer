@@ -16,6 +16,12 @@ describe("game engine", () => {
     expect(["up", "down"]).toContain(feedback.ppg.direction);
   });
 
+  it("compares jersey as numeric field with direction", () => {
+    const feedback = buildGuessFeedback("201939", "2544");
+    expect(["near", "close", "far"]).toContain(feedback.jersey.status);
+    expect(feedback.jersey.direction).toBe("down");
+  });
+
   it("supports position near by group", () => {
     const feedback = buildGuessFeedback("1630162", "1630224");
     expect(["exact", "close", "far"]).toContain(feedback.position.status);
