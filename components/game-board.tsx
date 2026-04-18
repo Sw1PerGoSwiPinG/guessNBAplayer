@@ -361,7 +361,7 @@ export function GameBoard() {
   return (
     <main className="min-h-screen bg-[radial-gradient(circle_at_top,rgba(34,197,94,0.22),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(14,116,144,0.25),transparent_30%),linear-gradient(135deg,#0a0f1e,#111827_55%,#0f172a)] text-zinc-50">
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 px-4 py-8 md:px-8">
-        <section className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+        <section className="relative z-50 overflow-visible rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
           <div className="flex flex-wrap items-center justify-between gap-4">
             <div>
               <p className="text-xs uppercase tracking-[0.2em] text-emerald-300">NBA 猜球员</p>
@@ -403,7 +403,7 @@ export function GameBoard() {
           </div>
         </section>
 
-        <section className="rounded-3xl border border-white/10 bg-white/5 p-4 backdrop-blur md:p-6">
+        <section className="relative z-10 rounded-3xl border border-white/10 bg-white/5 p-4 backdrop-blur md:p-6">
           <div className="flex flex-col gap-3 md:flex-row">
             <div className="relative flex-1">
               <Search className="pointer-events-none absolute left-3 top-3.5 size-4 text-zinc-400" />
