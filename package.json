@@ -1,0 +1,55 @@
+{
+  "name": "guessnbaplayer",
+  "version": "1.0.0",
+  "description": "NBA player guessing game for the most recently completed regular season.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "etl:players": "python scripts/fetch_players.py",
+    "data:check": "python scripts/validate_players.py"
+  },
+  "keywords": [
+    "nextjs",
+    "nba",
+    "game"
+  ],
+  "author": "codex",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.8.0",
+    "next": "^16.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "tailwind-merge": "^3.5.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitest/coverage-v8": "^4.1.4",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.4",
+    "jsdom": "^29.0.2",
+    "playwright": "^1.59.1",
+    "postcss": "^8.5.10",
+    "tailwindcss": "^4.2.2",
+    "tsx": "^4.20.6",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.4"
+  }
+}
+

@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --font-main: "Space Grotesk", "Sora", "Avenir Next", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-main);
+}
+
+button,
+input {
+  font: inherit;
+}
+
