@@ -16,7 +16,6 @@
     "country": "Canada",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 4.2,
     "apg": 0.3,
     "rpg": 1.8,
@@ -40,7 +39,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 10.4,
     "apg": 1.9,
     "rpg": 2.7,
@@ -64,7 +62,6 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 23,
-    "careerYears": 2,
     "ppg": 3.3,
     "apg": 1.0,
     "rpg": 1.1,
@@ -88,7 +85,6 @@
     "country": "USA",
     "draftYear": 2014,
     "draftPick": 4,
-    "careerYears": 12,
     "ppg": 16.2,
     "apg": 2.7,
     "rpg": 5.8,
@@ -112,7 +108,6 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 23,
-    "careerYears": 8,
     "ppg": 5.5,
     "apg": 1.1,
     "rpg": 1.0,
@@ -136,13 +131,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 14,
-    "careerYears": 6,
     "ppg": 13.8,
     "apg": 1.9,
     "rpg": 4.2,
     "playoffAppearances": 4,
     "mpg": 29.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1630598",
@@ -160,13 +155,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 55,
-    "careerYears": 5,
     "ppg": 9.4,
     "apg": 1.7,
     "rpg": 3.1,
     "playoffAppearances": 2,
     "mpg": 21.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1642846",
@@ -184,13 +179,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 5,
-    "careerYears": 1,
     "ppg": 13.8,
     "apg": 1.8,
     "rpg": 4.2,
     "playoffAppearances": 0,
     "mpg": 27.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 19
   },
   {
     "playerId": "1642380",
@@ -208,13 +203,13 @@
     "country": "France",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 10.4,
     "apg": 2.4,
     "rpg": 3.1,
     "playoffAppearances": 0,
     "mpg": 30.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1641737",
@@ -232,13 +227,13 @@
     "country": "Nigeria",
     "draftYear": 2024,
     "draftPick": 41,
-    "careerYears": 2,
     "ppg": 4.8,
     "apg": 0.5,
     "rpg": 4.3,
     "playoffAppearances": 0,
     "mpg": 17.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1642876",
@@ -256,13 +251,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 36,
-    "careerYears": 1,
     "ppg": 1.9,
     "apg": 0.4,
     "rpg": 1.1,
     "playoffAppearances": 0,
     "mpg": 6.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1642349",
@@ -280,13 +275,13 @@
     "country": "Belgium",
     "draftYear": 2024,
     "draftPick": 38,
-    "careerYears": 2,
     "ppg": 13.6,
     "apg": 3.6,
     "rpg": 3.3,
     "playoffAppearances": 1,
     "mpg": 25.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "201143",
@@ -304,13 +299,13 @@
     "country": "Dominican Republic",
     "draftYear": 2007,
     "draftPick": 3,
-    "careerYears": 19,
     "ppg": 8.3,
     "apg": 2.6,
     "rpg": 4.9,
     "playoffAppearances": 16,
     "mpg": 21.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 39
   },
   {
     "playerId": "1630828",
@@ -328,13 +323,13 @@
     "country": "Greece",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 3.2,
     "apg": 0.2,
     "rpg": 1.0,
     "playoffAppearances": 0,
     "mpg": 3.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1627936",
@@ -352,13 +347,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 9,
     "ppg": 6.2,
     "apg": 2.0,
     "rpg": 2.8,
     "playoffAppearances": 4,
     "mpg": 18.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 32
   },
   {
     "playerId": "1631457",
@@ -376,13 +371,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 2.0,
     "apg": 1.0,
     "rpg": 0.8,
     "playoffAppearances": 0,
     "mpg": 5.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1642259",
@@ -400,13 +395,13 @@
     "country": "France",
     "draftYear": 2024,
     "draftPick": 2,
-    "careerYears": 2,
     "ppg": 16.3,
     "apg": 2.7,
     "rpg": 7.4,
     "playoffAppearances": 0,
     "mpg": 27.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1642918",
@@ -424,13 +419,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 39,
-    "careerYears": 1,
     "ppg": 2.2,
     "apg": 0.5,
     "rpg": 0.9,
     "playoffAppearances": 0,
     "mpg": 6.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1631214",
@@ -448,13 +443,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 11.0,
     "apg": 3.0,
     "rpg": 6.3,
     "playoffAppearances": 0,
     "mpg": 25.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1630578",
@@ -473,13 +468,13 @@
     "country": "Turkey",
     "draftYear": 2021,
     "draftPick": 16,
-    "careerYears": 5,
     "ppg": 20.4,
     "apg": 6.2,
     "rpg": 8.9,
     "playoffAppearances": 1,
     "mpg": 33.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1642873",
@@ -497,13 +492,13 @@
     "country": "United Kingdom",
     "draftYear": 2025,
     "draftPick": 46,
-    "careerYears": 1,
     "ppg": 1.4,
     "apg": 0.5,
     "rpg": 1.8,
     "playoffAppearances": 0,
     "mpg": 6.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1641708",
@@ -521,13 +516,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 4,
-    "careerYears": 3,
     "ppg": 18.3,
     "apg": 5.3,
     "rpg": 7.8,
     "playoffAppearances": 1,
     "mpg": 37.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1629599",
@@ -545,13 +540,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 7,
     "ppg": 3.2,
     "apg": 0.6,
     "rpg": 1.2,
     "playoffAppearances": 4,
     "mpg": 10.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1643158",
@@ -569,13 +564,13 @@
     "country": "Dominican Republic",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 5.2,
     "apg": 2.8,
     "rpg": 8.4,
     "playoffAppearances": 0,
     "mpg": 33.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "203083",
@@ -593,13 +588,13 @@
     "country": "USA",
     "draftYear": 2012,
     "draftPick": 9,
-    "careerYears": 14,
     "ppg": 6.4,
     "apg": 1.3,
     "rpg": 8.4,
     "playoffAppearances": 4,
     "mpg": 19.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 32
   },
   {
     "playerId": "1641748",
@@ -619,13 +614,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 36,
-    "careerYears": 3,
     "ppg": 2.4,
     "apg": 0.9,
     "rpg": 1.5,
     "playoffAppearances": 2,
     "mpg": 8.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1629614",
@@ -643,13 +638,13 @@
     "country": "Canada",
     "draftYear": 2022,
     "draftPick": 31,
-    "careerYears": 4,
     "ppg": 16.9,
     "apg": 7.7,
     "rpg": 2.8,
     "playoffAppearances": 2,
     "mpg": 31.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "203952",
@@ -667,13 +662,13 @@
     "country": "Canada",
     "draftYear": 2014,
     "draftPick": 1,
-    "careerYears": 12,
     "ppg": 15.4,
     "apg": 2.7,
     "rpg": 4.8,
     "playoffAppearances": 4,
     "mpg": 30.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 31
   },
   {
     "playerId": "1629014",
@@ -691,13 +686,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 24,
-    "careerYears": 8,
     "ppg": 14.3,
     "apg": 2.4,
     "rpg": 2.5,
     "playoffAppearances": 3,
     "mpg": 24.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1641710",
@@ -715,7 +710,6 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 6,
-    "careerYears": 3,
     "ppg": 15.0,
     "apg": 3.7,
     "rpg": 3.8,
@@ -742,7 +736,6 @@
     "country": "USA",
     "draftYear": 2012,
     "draftPick": 1,
-    "careerYears": 14,
     "ppg": 20.4,
     "apg": 2.8,
     "rpg": 11.1,
@@ -767,7 +760,6 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 1,
-    "careerYears": 6,
     "ppg": 28.8,
     "apg": 3.7,
     "rpg": 5.0,
@@ -791,7 +783,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 6,
     "ppg": 5.8,
     "apg": 1.3,
     "rpg": 2.9,
@@ -815,7 +806,6 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 47,
-    "careerYears": 2,
     "ppg": 2.7,
     "apg": 0.3,
     "rpg": 0.8,
@@ -839,7 +829,6 @@
     "country": "Germany",
     "draftYear": 2024,
     "draftPick": 58,
-    "careerYears": 2,
     "ppg": 2.2,
     "apg": 0.5,
     "rpg": 2.9,
@@ -863,13 +852,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 23,
-    "careerYears": 1,
     "ppg": 5.2,
     "apg": 0.6,
     "rpg": 2.2,
     "playoffAppearances": 0,
     "mpg": 11.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1641709",
@@ -887,13 +876,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 5,
-    "careerYears": 3,
     "ppg": 9.9,
     "apg": 3.1,
     "rpg": 5.7,
     "playoffAppearances": 1,
     "mpg": 26.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1630559",
@@ -911,13 +900,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 5,
     "ppg": 23.3,
     "apg": 5.5,
     "rpg": 4.7,
     "playoffAppearances": 3,
     "mpg": 34.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1630245",
@@ -935,13 +924,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 38,
-    "careerYears": 5,
     "ppg": 14.8,
     "apg": 3.6,
     "rpg": 3.4,
     "playoffAppearances": 1,
     "mpg": 27.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1628389",
@@ -960,13 +949,13 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 14,
-    "careerYears": 9,
     "ppg": 20.1,
     "apg": 3.2,
     "rpg": 10.0,
     "playoffAppearances": 7,
     "mpg": 32.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1631248",
@@ -984,13 +973,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 30,
-    "careerYears": 2,
     "ppg": 5.5,
     "apg": 1.5,
     "rpg": 3.5,
     "playoffAppearances": 1,
     "mpg": 18.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1642879",
@@ -1008,13 +997,13 @@
     "country": "Israel",
     "draftYear": 2025,
     "draftPick": 26,
-    "careerYears": 1,
     "ppg": 7.5,
     "apg": 3.3,
     "rpg": 2.1,
     "playoffAppearances": 0,
     "mpg": 20.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1641767",
@@ -1032,13 +1021,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 26,
-    "careerYears": 3,
     "ppg": 7.1,
     "apg": 1.8,
     "rpg": 3.0,
     "playoffAppearances": 2,
     "mpg": 21.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1631097",
@@ -1056,13 +1045,13 @@
     "country": "Canada",
     "draftYear": 2022,
     "draftPick": 6,
-    "careerYears": 4,
     "ppg": 17.6,
     "apg": 2.4,
     "rpg": 5.4,
     "playoffAppearances": 1,
     "mpg": 30.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1643016",
@@ -1080,13 +1069,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 8.1,
     "apg": 4.1,
     "rpg": 3.8,
     "playoffAppearances": 0,
     "mpg": 32.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1641731",
@@ -1104,13 +1093,13 @@
     "country": "France",
     "draftYear": 2023,
     "draftPick": 7,
-    "careerYears": 3,
     "ppg": 11.7,
     "apg": 2.6,
     "rpg": 4.3,
     "playoffAppearances": 0,
     "mpg": 26.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "202687",
@@ -1128,13 +1117,13 @@
     "country": "DRC",
     "draftYear": 2011,
     "draftPick": 7,
-    "careerYears": 15,
     "ppg": 0.9,
     "apg": 0.2,
     "rpg": 1.0,
     "playoffAppearances": 4,
     "mpg": 5.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 33
   },
   {
     "playerId": "1642396",
@@ -1152,13 +1141,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 11.9,
     "apg": 1.1,
     "rpg": 2.4,
     "playoffAppearances": 0,
     "mpg": 20.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1631104",
@@ -1176,13 +1165,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 25,
-    "careerYears": 4,
     "ppg": 4.8,
     "apg": 2.0,
     "rpg": 1.3,
     "playoffAppearances": 0,
     "mpg": 11.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1626171",
@@ -1200,13 +1189,13 @@
     "country": "USA",
     "draftYear": 2015,
     "draftPick": 22,
-    "careerYears": 11,
     "ppg": 13.7,
     "apg": 1.6,
     "rpg": 6.4,
     "playoffAppearances": 6,
     "mpg": 24.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 31
   },
   {
     "playerId": "1641752",
@@ -1224,13 +1213,13 @@
     "country": "Sweden",
     "draftYear": 2024,
     "draftPick": 37,
-    "careerYears": 2,
     "ppg": 1.8,
     "apg": 0.5,
     "rpg": 1.6,
     "playoffAppearances": 0,
     "mpg": 5.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "203992",
@@ -1249,13 +1238,13 @@
     "country": "Serbia",
     "draftYear": 2014,
     "draftPick": 27,
-    "careerYears": 9,
     "ppg": 7.4,
     "apg": 2.2,
     "rpg": 2.6,
     "playoffAppearances": 4,
     "mpg": 19.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 33
   },
   {
     "playerId": "1630538",
@@ -1273,13 +1262,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 26,
-    "careerYears": 5,
     "ppg": 8.5,
     "apg": 2.6,
     "rpg": 1.8,
     "playoffAppearances": 3,
     "mpg": 16.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "203078",
@@ -1298,13 +1287,13 @@
     "country": "USA",
     "draftYear": 2012,
     "draftPick": 3,
-    "careerYears": 14,
     "ppg": 8.2,
     "apg": 1.7,
     "rpg": 0.8,
     "playoffAppearances": 6,
     "mpg": 20.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 32
   },
   {
     "playerId": "1642382",
@@ -1322,13 +1311,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 5.8,
     "apg": 0.7,
     "rpg": 3.0,
     "playoffAppearances": 0,
     "mpg": 11.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1641764",
@@ -1346,13 +1335,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 19,
-    "careerYears": 3,
     "ppg": 13.8,
     "apg": 3.7,
     "rpg": 5.1,
     "playoffAppearances": 1,
     "mpg": 28.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1629634",
@@ -1370,13 +1359,13 @@
     "country": "Canada",
     "draftYear": 2019,
     "draftPick": 21,
-    "careerYears": 7,
     "ppg": 4.0,
     "apg": 0.5,
     "rpg": 3.0,
     "playoffAppearances": 2,
     "mpg": 10.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1627742",
@@ -1395,13 +1384,13 @@
     "country": "USA",
     "draftYear": 2016,
     "draftPick": 2,
-    "careerYears": 10,
     "ppg": 21.5,
     "apg": 3.7,
     "rpg": 5.6,
     "playoffAppearances": 2,
     "mpg": 33.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1641706",
@@ -1419,13 +1408,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 2,
-    "careerYears": 3,
     "ppg": 20.2,
     "apg": 3.3,
     "rpg": 4.9,
     "playoffAppearances": 0,
     "mpg": 30.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1630314",
@@ -1443,13 +1432,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 5,
     "ppg": 13.0,
     "apg": 3.9,
     "rpg": 2.9,
     "playoffAppearances": 0,
     "mpg": 22.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1641729",
@@ -1467,13 +1456,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 28,
-    "careerYears": 3,
     "ppg": 14.9,
     "apg": 1.9,
     "rpg": 3.1,
     "playoffAppearances": 0,
     "mpg": 23.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1642355",
@@ -1491,13 +1480,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 55,
-    "careerYears": 2,
     "ppg": 2.9,
     "apg": 1.2,
     "rpg": 0.5,
     "playoffAppearances": 1,
     "mpg": 8.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "201572",
@@ -1515,13 +1504,13 @@
     "country": "USA",
     "draftYear": 2008,
     "draftPick": 10,
-    "careerYears": 18,
     "ppg": 8.5,
     "apg": 1.3,
     "rpg": 3.6,
     "playoffAppearances": 9,
     "mpg": 21.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 38
   },
   {
     "playerId": "1642964",
@@ -1539,13 +1528,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 44,
-    "careerYears": 1,
     "ppg": 1.7,
     "apg": 0.6,
     "rpg": 2.0,
     "playoffAppearances": 0,
     "mpg": 8.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1628971",
@@ -1563,13 +1552,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 42,
-    "careerYears": 8,
     "ppg": 7.9,
     "apg": 2.1,
     "rpg": 3.9,
     "playoffAppearances": 4,
     "mpg": 24.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1631121",
@@ -1587,13 +1576,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 40,
-    "careerYears": 4,
     "ppg": 8.1,
     "apg": 1.5,
     "rpg": 2.1,
     "playoffAppearances": 0,
     "mpg": 21.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1642267",
@@ -1611,13 +1600,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 14,
-    "careerYears": 2,
     "ppg": 10.7,
     "apg": 4.6,
     "rpg": 3.4,
     "playoffAppearances": 0,
     "mpg": 27.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1631205",
@@ -1635,13 +1624,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 1.5,
     "apg": 0.0,
     "rpg": 0.0,
     "playoffAppearances": 0,
     "mpg": 3.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1627741",
@@ -1659,13 +1648,13 @@
     "country": "Bahamas",
     "draftYear": 2016,
     "draftPick": 6,
-    "careerYears": 10,
     "ppg": 7.6,
     "apg": 1.4,
     "rpg": 2.3,
     "playoffAppearances": 2,
     "mpg": 16.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 33
   },
   {
     "playerId": "1643047",
@@ -1683,13 +1672,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 3.0,
     "apg": 0.5,
     "rpg": 1.3,
     "playoffAppearances": 0,
     "mpg": 10.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "203468",
@@ -1708,13 +1697,13 @@
     "country": "USA",
     "draftYear": 2013,
     "draftPick": 10,
-    "careerYears": 13,
     "ppg": 18.7,
     "apg": 3.9,
     "rpg": 3.3,
     "playoffAppearances": 10,
     "mpg": 29.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 34
   },
   {
     "playerId": "1630595",
@@ -1732,13 +1721,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 1,
-    "careerYears": 5,
     "ppg": 23.9,
     "apg": 9.9,
     "rpg": 5.5,
     "playoffAppearances": 1,
     "mpg": 33.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1631216",
@@ -1756,13 +1745,13 @@
     "country": "Canada",
     "draftYear": 2022,
     "draftPick": 32,
-    "careerYears": 4,
     "ppg": 2.3,
     "apg": 0.2,
     "rpg": 0.6,
     "playoffAppearances": 2,
     "mpg": 4.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1631126",
@@ -1780,13 +1769,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 10.4,
     "apg": 2.5,
     "rpg": 2.3,
     "playoffAppearances": 0,
     "mpg": 20.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1628997",
@@ -1804,13 +1793,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 7,
     "ppg": 3.9,
     "apg": 1.4,
     "rpg": 2.5,
     "playoffAppearances": 3,
     "mpg": 14.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1642353",
@@ -1828,13 +1817,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 46,
-    "careerYears": 2,
     "ppg": 2.8,
     "apg": 0.6,
     "rpg": 1.4,
     "playoffAppearances": 1,
     "mpg": 8.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1642285",
@@ -1852,13 +1841,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 53,
-    "careerYears": 2,
     "ppg": 11.1,
     "apg": 5.6,
     "rpg": 2.5,
     "playoffAppearances": 0,
     "mpg": 23.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1630560",
@@ -1876,13 +1865,13 @@
     "country": "Japan",
     "draftYear": 2021,
     "draftPick": 27,
-    "careerYears": 5,
     "ppg": 13.5,
     "apg": 2.6,
     "rpg": 1.7,
     "playoffAppearances": 2,
     "mpg": 21.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1641715",
@@ -1900,13 +1889,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 20,
-    "careerYears": 3,
     "ppg": 9.2,
     "apg": 0.7,
     "rpg": 2.8,
     "playoffAppearances": 1,
     "mpg": 16.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1629661",
@@ -1924,13 +1913,13 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 11,
-    "careerYears": 7,
     "ppg": 12.2,
     "apg": 2.4,
     "rpg": 3.8,
     "playoffAppearances": 3,
     "mpg": 30.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1626166",
@@ -1948,13 +1937,13 @@
     "country": "USA",
     "draftYear": 2015,
     "draftPick": 14,
-    "careerYears": 11,
     "ppg": 7.4,
     "apg": 2.6,
     "rpg": 2.0,
     "playoffAppearances": 7,
     "mpg": 17.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 31
   },
   {
     "playerId": "1627747",
@@ -1972,13 +1961,13 @@
     "country": "USA",
     "draftYear": 2016,
     "draftPick": 20,
-    "careerYears": 10,
     "ppg": 7.4,
     "apg": 2.7,
     "rpg": 2.0,
     "playoffAppearances": 4,
     "mpg": 19.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 31
   },
   {
     "playerId": "1642868",
@@ -1996,13 +1985,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 14,
-    "careerYears": 1,
     "ppg": 4.2,
     "apg": 0.7,
     "rpg": 2.5,
     "playoffAppearances": 0,
     "mpg": 11.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1641717",
@@ -2020,13 +2009,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 10,
-    "careerYears": 3,
     "ppg": 8.6,
     "apg": 2.6,
     "rpg": 3.1,
     "playoffAppearances": 2,
     "mpg": 26.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1642907",
@@ -2044,7 +2033,6 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 11,
-    "careerYears": 1,
     "ppg": 13.6,
     "apg": 2.8,
     "rpg": 5.9,
@@ -2068,7 +2056,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 8.2,
     "apg": 2.1,
     "rpg": 4.6,
@@ -2092,7 +2079,6 @@
     "country": "Nigeria",
     "draftYear": 2021,
     "draftPick": 53,
-    "careerYears": 5,
     "ppg": 5.8,
     "apg": 0.5,
     "rpg": 4.4,
@@ -2116,7 +2102,6 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 37,
-    "careerYears": 1,
     "ppg": 2.4,
     "apg": 0.5,
     "rpg": 0.7,
@@ -2141,7 +2126,6 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 2,
-    "careerYears": 4,
     "ppg": 17.1,
     "apg": 1.7,
     "rpg": 8.9,
@@ -2165,7 +2149,6 @@
     "country": "Saint Lucia",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 9,
     "ppg": 2.3,
     "apg": 0.3,
     "rpg": 2.0,
@@ -2189,13 +2172,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 58,
-    "careerYears": 3,
     "ppg": 3.0,
     "apg": 0.3,
     "rpg": 1.0,
     "playoffAppearances": 2,
     "mpg": 5.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1643024",
@@ -2214,13 +2197,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 0.8,
     "apg": 0.3,
     "rpg": 1.1,
     "playoffAppearances": 0,
     "mpg": 5.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "101108",
@@ -2239,13 +2222,13 @@
     "country": "USA",
     "draftYear": 2005,
     "draftPick": 4,
-    "careerYears": 21,
     "ppg": 2.9,
     "apg": 3.3,
     "rpg": 1.8,
     "playoffAppearances": 15,
     "mpg": 14.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 40
   },
   {
     "playerId": "1642959",
@@ -2263,13 +2246,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 2.1,
     "apg": 0.4,
     "rpg": 0.8,
     "playoffAppearances": 0,
     "mpg": 5.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1631128",
@@ -2287,13 +2270,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 21,
-    "careerYears": 4,
     "ppg": 12.0,
     "apg": 2.7,
     "rpg": 4.8,
     "playoffAppearances": 3,
     "mpg": 31.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1631132",
@@ -2311,13 +2294,13 @@
     "country": "Cameroon",
     "draftYear": 2022,
     "draftPick": 33,
-    "careerYears": 4,
     "ppg": 2.7,
     "apg": 0.7,
     "rpg": 3.0,
     "playoffAppearances": 0,
     "mpg": 13.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1642935",
@@ -2335,13 +2318,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 0.0,
     "apg": 1.0,
     "rpg": 0.5,
     "playoffAppearances": 0,
     "mpg": 6.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "203991",
@@ -2359,13 +2342,13 @@
     "country": "Switzerland",
     "draftYear": 2014,
     "draftPick": 25,
-    "careerYears": 12,
     "ppg": 3.8,
     "apg": 0.7,
     "rpg": 4.6,
     "playoffAppearances": 8,
     "mpg": 12.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 31
   },
   {
     "playerId": "1629632",
@@ -2383,13 +2366,13 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 7,
-    "careerYears": 7,
     "ppg": 17.4,
     "apg": 4.0,
     "rpg": 3.4,
     "playoffAppearances": 1,
     "mpg": 25.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1628998",
@@ -2407,7 +2390,6 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 36,
-    "careerYears": 7,
     "ppg": 1.8,
     "apg": 0.5,
     "rpg": 3.5,
@@ -2431,13 +2413,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 10,
-    "careerYears": 2,
     "ppg": 8.8,
     "apg": 2.0,
     "rpg": 3.0,
     "playoffAppearances": 0,
     "mpg": 24.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1641732",
@@ -2455,13 +2437,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 34,
-    "careerYears": 3,
     "ppg": 2.0,
     "apg": 2.0,
     "rpg": 4.0,
     "playoffAppearances": 0,
     "mpg": 6.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1630175",
@@ -2479,13 +2461,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 15,
-    "careerYears": 6,
     "ppg": 6.7,
     "apg": 3.5,
     "rpg": 2.5,
     "playoffAppearances": 2,
     "mpg": 15.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1630658",
@@ -2503,13 +2485,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 3,
     "ppg": 1.3,
     "apg": 0.3,
     "rpg": 2.0,
     "playoffAppearances": 0,
     "mpg": 5.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1631221",
@@ -2527,13 +2509,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 12.7,
     "apg": 4.6,
     "rpg": 4.1,
     "playoffAppearances": 0,
     "mpg": 28.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1642867",
@@ -2552,13 +2534,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 9,
-    "careerYears": 1,
     "ppg": 8.5,
     "apg": 1.9,
     "rpg": 5.0,
     "playoffAppearances": 0,
     "mpg": 21.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1629012",
@@ -2576,13 +2558,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 8,
-    "careerYears": 8,
     "ppg": 15.4,
     "apg": 3.3,
     "rpg": 2.3,
     "playoffAppearances": 0,
     "mpg": 23.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1642843",
@@ -2600,13 +2582,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 1,
-    "careerYears": 1,
     "ppg": 21.0,
     "apg": 4.5,
     "rpg": 6.7,
     "playoffAppearances": 0,
     "mpg": 33.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 19
   },
   {
     "playerId": "1630557",
@@ -2624,7 +2606,6 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 15,
-    "careerYears": 5,
     "ppg": 9.2,
     "apg": 1.6,
     "rpg": 2.3,
@@ -2648,7 +2629,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 14.3,
     "apg": 1.7,
     "rpg": 2.5,
@@ -2674,7 +2654,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 3,
     "ppg": 4.5,
     "apg": 3.2,
     "rpg": 3.4,
@@ -2698,7 +2677,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 2.9,
     "apg": 1.0,
     "rpg": 1.1,
@@ -2723,7 +2701,6 @@
     "country": "USA",
     "draftYear": 2015,
     "draftPick": 2,
-    "careerYears": 11,
     "ppg": 10.2,
     "apg": 4.0,
     "rpg": 2.3,
@@ -2747,7 +2724,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 7,
     "ppg": 10.3,
     "apg": 0.3,
     "rpg": 1.7,
@@ -2772,7 +2748,6 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 22,
-    "careerYears": 2,
     "ppg": 3.7,
     "apg": 0.6,
     "rpg": 1.4,
@@ -2796,7 +2771,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 10.8,
     "apg": 1.3,
     "rpg": 3.0,
@@ -2820,7 +2794,6 @@
     "country": "Canada",
     "draftYear": 2021,
     "draftPick": 46,
-    "careerYears": 5,
     "ppg": 2.0,
     "apg": 1.8,
     "rpg": 0.8,
@@ -2844,7 +2817,6 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 18,
-    "careerYears": 4,
     "ppg": 3.7,
     "apg": 1.4,
     "rpg": 1.8,
@@ -2868,7 +2840,6 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 17,
-    "careerYears": 2,
     "ppg": 4.2,
     "apg": 0.4,
     "rpg": 1.4,
@@ -2892,7 +2863,6 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 38,
-    "careerYears": 7,
     "ppg": 9.5,
     "apg": 1.1,
     "rpg": 6.9,
@@ -2916,13 +2886,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 9.3,
     "apg": 3.9,
     "rpg": 2.3,
     "playoffAppearances": 0,
     "mpg": 20.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1642874",
@@ -2940,13 +2910,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 27,
-    "careerYears": 1,
     "ppg": 8.9,
     "apg": 2.2,
     "rpg": 4.9,
     "playoffAppearances": 0,
     "mpg": 20.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "203967",
@@ -2964,13 +2934,13 @@
     "country": "Croatia",
     "draftYear": 2014,
     "draftPick": 12,
-    "careerYears": 10,
     "ppg": 1.0,
     "apg": 0.4,
     "rpg": 1.2,
     "playoffAppearances": 2,
     "mpg": 8.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 32
   },
   {
     "playerId": "1641727",
@@ -2988,13 +2958,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 22,
-    "careerYears": 3,
     "ppg": 16.3,
     "apg": 1.5,
     "rpg": 4.0,
     "playoffAppearances": 0,
     "mpg": 30.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1642468",
@@ -3012,13 +2982,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 0.0,
     "apg": 0.0,
     "rpg": 1.0,
     "playoffAppearances": 0,
     "mpg": 2.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1629636",
@@ -3036,13 +3006,13 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 5,
-    "careerYears": 7,
     "ppg": 18.8,
     "apg": 6.7,
     "rpg": 2.4,
     "playoffAppearances": 3,
     "mpg": 29.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1642357",
@@ -3061,13 +3031,13 @@
     "country": "Dominican Republic",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 2.9,
     "apg": 1.6,
     "rpg": 1.2,
     "playoffAppearances": 0,
     "mpg": 6.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1631223",
@@ -3085,13 +3055,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 23,
-    "careerYears": 4,
     "ppg": 8.0,
     "apg": 0.8,
     "rpg": 4.0,
     "playoffAppearances": 2,
     "mpg": 14.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1630558",
@@ -3109,13 +3079,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 9,
-    "careerYears": 5,
     "ppg": 9.3,
     "apg": 6.5,
     "rpg": 2.7,
     "playoffAppearances": 2,
     "mpg": 28.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1630549",
@@ -3134,13 +3104,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 29,
-    "careerYears": 5,
     "ppg": 8.7,
     "apg": 2.3,
     "rpg": 6.7,
     "playoffAppearances": 2,
     "mpg": 18.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1628368",
@@ -3160,13 +3130,13 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 5,
-    "careerYears": 9,
     "ppg": 18.6,
     "apg": 6.2,
     "rpg": 3.8,
     "playoffAppearances": 1,
     "mpg": 31.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1629631",
@@ -3185,13 +3155,13 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 4,
-    "careerYears": 7,
     "ppg": 13.7,
     "apg": 2.0,
     "rpg": 4.1,
     "playoffAppearances": 4,
     "mpg": 26.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1629001",
@@ -3210,13 +3180,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 46,
-    "careerYears": 8,
     "ppg": 12.3,
     "apg": 2.6,
     "rpg": 3.2,
     "playoffAppearances": 4,
     "mpg": 23.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "201599",
@@ -3234,13 +3204,13 @@
     "country": "USA",
     "draftYear": 2008,
     "draftPick": 35,
-    "careerYears": 18,
     "ppg": 4.4,
     "apg": 0.9,
     "rpg": 6.3,
     "playoffAppearances": 10,
     "mpg": 16.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 37
   },
   {
     "playerId": "1630610",
@@ -3258,13 +3228,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 5,
     "ppg": 8.0,
     "apg": 3.3,
     "rpg": 4.6,
     "playoffAppearances": 0,
     "mpg": 21.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "201942",
@@ -3283,13 +3253,13 @@
     "country": "USA",
     "draftYear": 2009,
     "draftPick": 9,
-    "careerYears": 17,
     "ppg": 18.4,
     "apg": 4.1,
     "rpg": 2.9,
     "playoffAppearances": 7,
     "mpg": 31.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 36
   },
   {
     "playerId": "1629731",
@@ -3307,13 +3277,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 7,
     "ppg": 5.8,
     "apg": 1.5,
     "rpg": 4.2,
     "playoffAppearances": 3,
     "mpg": 22.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1629028",
@@ -3331,13 +3301,13 @@
     "country": "Bahamas",
     "draftYear": 2018,
     "draftPick": 1,
-    "careerYears": 8,
     "ppg": 12.5,
     "apg": 0.8,
     "rpg": 8.0,
     "playoffAppearances": 3,
     "mpg": 27.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1627749",
@@ -3355,13 +3325,13 @@
     "country": "USA",
     "draftYear": 2016,
     "draftPick": 29,
-    "careerYears": 10,
     "ppg": 16.7,
     "apg": 6.4,
     "rpg": 5.4,
     "playoffAppearances": 3,
     "mpg": 27.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1630166",
@@ -3379,13 +3349,13 @@
     "country": "Israel",
     "draftYear": 2020,
     "draftPick": 9,
-    "careerYears": 6,
     "ppg": 24.2,
     "apg": 6.7,
     "rpg": 6.9,
     "playoffAppearances": 0,
     "mpg": 33.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "203471",
@@ -3404,13 +3374,13 @@
     "country": "Germany",
     "draftYear": 2013,
     "draftPick": 17,
-    "careerYears": 13,
     "ppg": 10.8,
     "apg": 4.9,
     "rpg": 2.7,
     "playoffAppearances": 9,
     "mpg": 24.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 32
   },
   {
     "playerId": "1641726",
@@ -3429,7 +3399,6 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 12,
-    "careerYears": 3,
     "ppg": 4.3,
     "apg": 1.9,
     "rpg": 5.3,
@@ -3453,7 +3422,6 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 13,
-    "careerYears": 1,
     "ppg": 11.7,
     "apg": 3.7,
     "rpg": 7.1,
@@ -3479,7 +3447,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 10,
     "ppg": 10.1,
     "apg": 1.4,
     "rpg": 3.5,
@@ -3503,7 +3470,6 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 29,
-    "careerYears": 9,
     "ppg": 16.5,
     "apg": 5.4,
     "rpg": 4.4,
@@ -3527,7 +3493,6 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 30,
-    "careerYears": 6,
     "ppg": 20.1,
     "apg": 4.1,
     "rpg": 4.1,
@@ -3552,7 +3517,6 @@
     "country": "USA",
     "draftYear": 2015,
     "draftPick": 13,
-    "careerYears": 11,
     "ppg": 26.1,
     "apg": 6.0,
     "rpg": 3.9,
@@ -3576,13 +3540,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 13,
-    "careerYears": 2,
     "ppg": 8.9,
     "apg": 2.7,
     "rpg": 3.3,
     "playoffAppearances": 0,
     "mpg": 18.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1630170",
@@ -3600,13 +3564,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 11,
-    "careerYears": 6,
     "ppg": 13.9,
     "apg": 2.5,
     "rpg": 4.0,
     "playoffAppearances": 0,
     "mpg": 30.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1628415",
@@ -3624,13 +3588,13 @@
     "country": "Canada",
     "draftYear": 2017,
     "draftPick": 45,
-    "careerYears": 9,
     "ppg": 20.2,
     "apg": 1.8,
     "rpg": 3.6,
     "playoffAppearances": 4,
     "mpg": 30.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1641794",
@@ -3648,13 +3612,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 26,
-    "careerYears": 2,
     "ppg": 1.3,
     "apg": 0.6,
     "rpg": 1.0,
     "playoffAppearances": 1,
     "mpg": 5.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1627734",
@@ -3673,13 +3637,13 @@
     "country": "Lithuania",
     "draftYear": 2016,
     "draftPick": 11,
-    "careerYears": 10,
     "ppg": 15.8,
     "apg": 4.1,
     "rpg": 11.4,
     "playoffAppearances": 4,
     "mpg": 29.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1631230",
@@ -3697,13 +3661,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 7.7,
     "apg": 1.2,
     "rpg": 4.8,
     "playoffAppearances": 0,
     "mpg": 23.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1642270",
@@ -3721,13 +3685,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 7,
-    "careerYears": 2,
     "ppg": 12.1,
     "apg": 2.1,
     "rpg": 11.6,
     "playoffAppearances": 0,
     "mpg": 27.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1628378",
@@ -3746,13 +3710,13 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 13,
-    "careerYears": 9,
     "ppg": 27.9,
     "apg": 5.7,
     "rpg": 4.5,
     "playoffAppearances": 8,
     "mpg": 33.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1628978",
@@ -3770,13 +3734,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 17,
-    "careerYears": 8,
     "ppg": 12.2,
     "apg": 3.8,
     "rpg": 4.1,
     "playoffAppearances": 5,
     "mpg": 30.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1627827",
@@ -3795,13 +3759,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 10,
     "ppg": 3.3,
     "apg": 1.0,
     "rpg": 2.5,
     "playoffAppearances": 5,
     "mpg": 16.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 32
   },
   {
     "playerId": "203926",
@@ -3819,13 +3783,13 @@
     "country": "USA",
     "draftYear": 2014,
     "draftPick": 11,
-    "careerYears": 12,
     "ppg": 5.7,
     "apg": 0.8,
     "rpg": 1.3,
     "playoffAppearances": 5,
     "mpg": 15.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 34
   },
   {
     "playerId": "1642962",
@@ -3843,13 +3807,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 22,
-    "careerYears": 1,
     "ppg": 6.5,
     "apg": 1.4,
     "rpg": 1.8,
     "playoffAppearances": 0,
     "mpg": 20.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "203110",
@@ -3868,13 +3832,13 @@
     "country": "USA",
     "draftYear": 2012,
     "draftPick": 35,
-    "careerYears": 14,
     "ppg": 8.4,
     "apg": 5.5,
     "rpg": 5.5,
     "playoffAppearances": 10,
     "mpg": 27.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 36
   },
   {
     "playerId": "1629234",
@@ -3892,13 +3856,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 8,
     "ppg": 5.2,
     "apg": 0.5,
     "rpg": 3.0,
     "playoffAppearances": 2,
     "mpg": 13.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1641809",
@@ -3916,13 +3880,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 3,
     "ppg": 0.8,
     "apg": 0.3,
     "rpg": 1.5,
     "playoffAppearances": 0,
     "mpg": 10.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1631166",
@@ -3940,7 +3904,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 3.4,
     "apg": 0.9,
     "rpg": 1.2,
@@ -3964,7 +3927,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 5.6,
     "apg": 2.6,
     "rpg": 2.5,
@@ -3988,7 +3950,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 8,
     "ppg": 12.2,
     "apg": 2.1,
     "rpg": 2.7,
@@ -4012,7 +3973,6 @@
     "country": "South Sudan",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 3,
     "ppg": 2.9,
     "apg": 0.3,
     "rpg": 1.2,
@@ -4036,7 +3996,6 @@
     "country": "Canada",
     "draftYear": 2014,
     "draftPick": 45,
-    "careerYears": 12,
     "ppg": 3.3,
     "apg": 1.1,
     "rpg": 4.1,
@@ -4060,7 +4019,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 5.4,
     "apg": 1.4,
     "rpg": 7.5,
@@ -4084,13 +4042,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 2,
-    "careerYears": 1,
     "ppg": 11.8,
     "apg": 3.9,
     "rpg": 3.4,
     "playoffAppearances": 0,
     "mpg": 22.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1630700",
@@ -4108,13 +4066,13 @@
     "country": "Australia",
     "draftYear": 2022,
     "draftPick": 8,
-    "careerYears": 4,
     "ppg": 11.9,
     "apg": 5.9,
     "rpg": 6.8,
     "playoffAppearances": 1,
     "mpg": 33.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1630604",
@@ -4133,13 +4091,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 41,
-    "careerYears": 4,
     "ppg": 5.7,
     "apg": 0.9,
     "rpg": 2.7,
     "playoffAppearances": 1,
     "mpg": 13.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1642856",
@@ -4158,13 +4116,13 @@
     "country": "Russia",
     "draftYear": 2025,
     "draftPick": 8,
-    "careerYears": 1,
     "ppg": 10.3,
     "apg": 3.3,
     "rpg": 3.2,
     "playoffAppearances": 0,
     "mpg": 25.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1641989",
@@ -4182,13 +4140,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 6.8,
     "apg": 2.9,
     "rpg": 2.0,
     "playoffAppearances": 0,
     "mpg": 21.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1641801",
@@ -4206,13 +4164,13 @@
     "country": "Canada",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 3.0,
     "apg": 0.8,
     "rpg": 0.6,
     "playoffAppearances": 0,
     "mpg": 6.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1642402",
@@ -4230,13 +4188,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 50,
-    "careerYears": 2,
     "ppg": 3.3,
     "apg": 0.5,
     "rpg": 2.5,
     "playoffAppearances": 0,
     "mpg": 9.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "201569",
@@ -4254,13 +4212,13 @@
     "country": "USA",
     "draftYear": 2008,
     "draftPick": 7,
-    "careerYears": 18,
     "ppg": 5.5,
     "apg": 0.5,
     "rpg": 0.3,
     "playoffAppearances": 7,
     "mpg": 12.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 37
   },
   {
     "playerId": "1630679",
@@ -4278,13 +4236,13 @@
     "country": "Puerto Rico",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 7.0,
     "apg": 1.8,
     "rpg": 2.2,
     "playoffAppearances": 0,
     "mpg": 20.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1630596",
@@ -4302,13 +4260,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 3,
-    "careerYears": 5,
     "ppg": 18.2,
     "apg": 3.6,
     "rpg": 9.0,
     "playoffAppearances": 3,
     "mpg": 31.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1630532",
@@ -4327,13 +4285,13 @@
     "country": "Germany",
     "draftYear": 2021,
     "draftPick": 8,
-    "careerYears": 5,
     "ppg": 20.6,
     "apg": 3.3,
     "rpg": 5.2,
     "playoffAppearances": 2,
     "mpg": 30.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1641713",
@@ -4351,13 +4309,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 45,
-    "careerYears": 3,
     "ppg": 12.5,
     "apg": 1.5,
     "rpg": 4.3,
     "playoffAppearances": 0,
     "mpg": 21.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1629216",
@@ -4375,13 +4333,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 7,
     "ppg": 4.4,
     "apg": 1.4,
     "rpg": 1.0,
     "playoffAppearances": 6,
     "mpg": 16.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "202066",
@@ -4399,13 +4357,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 17,
     "ppg": 0.8,
     "apg": 0.4,
     "rpg": 0.4,
     "playoffAppearances": 6,
     "mpg": 3.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 39
   },
   {
     "playerId": "1629726",
@@ -4423,13 +4381,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 7,
     "ppg": 5.2,
     "apg": 0.7,
     "rpg": 1.1,
     "playoffAppearances": 1,
     "mpg": 13.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "203914",
@@ -4447,13 +4405,13 @@
     "country": "USA",
     "draftYear": 2014,
     "draftPick": 19,
-    "careerYears": 12,
     "ppg": 2.7,
     "apg": 1.1,
     "rpg": 1.3,
     "playoffAppearances": 4,
     "mpg": 13.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 31
   },
   {
     "playerId": "1627780",
@@ -4472,13 +4430,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 10,
     "ppg": 7.5,
     "apg": 1.7,
     "rpg": 3.6,
     "playoffAppearances": 3,
     "mpg": 15.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 33
   },
   {
     "playerId": "1629018",
@@ -4498,13 +4456,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 37,
-    "careerYears": 8,
     "ppg": 8.1,
     "apg": 1.2,
     "rpg": 1.0,
     "playoffAppearances": 3,
     "mpg": 21.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "203507",
@@ -4524,13 +4482,13 @@
     "country": "Greece",
     "draftYear": 2013,
     "draftPick": 15,
-    "careerYears": 13,
     "ppg": 27.6,
     "apg": 5.4,
     "rpg": 9.8,
     "playoffAppearances": 9,
     "mpg": 28.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 31
   },
   {
     "playerId": "1629048",
@@ -4548,13 +4506,13 @@
     "country": "Georgia",
     "draftYear": 2019,
     "draftPick": 18,
-    "careerYears": 7,
     "ppg": 5.9,
     "apg": 1.3,
     "rpg": 5.0,
     "playoffAppearances": 2,
     "mpg": 15.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1641711",
@@ -4572,13 +4530,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 13,
-    "careerYears": 3,
     "ppg": 6.0,
     "apg": 0.7,
     "rpg": 1.9,
     "playoffAppearances": 0,
     "mpg": 14.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1641761",
@@ -4596,13 +4554,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 4.3,
     "apg": 1.3,
     "rpg": 1.5,
     "playoffAppearances": 0,
     "mpg": 8.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1629684",
@@ -4620,13 +4578,13 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 22,
-    "careerYears": 7,
     "ppg": 7.0,
     "apg": 1.6,
     "rpg": 3.9,
     "playoffAppearances": 4,
     "mpg": 19.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1628960",
@@ -4644,13 +4602,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 21,
-    "careerYears": 8,
     "ppg": 16.5,
     "apg": 3.8,
     "rpg": 3.0,
     "playoffAppearances": 5,
     "mpg": 28.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1627824",
@@ -4668,13 +4626,13 @@
     "country": "France",
     "draftYear": 2016,
     "draftPick": 16,
-    "careerYears": 9,
     "ppg": 5.6,
     "apg": 0.9,
     "rpg": 3.5,
     "playoffAppearances": 2,
     "mpg": 15.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1630611",
@@ -4692,13 +4650,13 @@
     "country": "Brazil",
     "draftYear": 2022,
     "draftPick": 55,
-    "careerYears": 3,
     "ppg": 9.2,
     "apg": 2.3,
     "rpg": 3.9,
     "playoffAppearances": 1,
     "mpg": 20.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "203084",
@@ -4716,13 +4674,13 @@
     "country": "USA",
     "draftYear": 2012,
     "draftPick": 7,
-    "careerYears": 14,
     "ppg": 9.9,
     "apg": 1.9,
     "rpg": 2.8,
     "playoffAppearances": 5,
     "mpg": 25.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 33
   },
   {
     "playerId": "1631127",
@@ -4740,13 +4698,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 48,
-    "careerYears": 2,
     "ppg": 1.6,
     "apg": 0.1,
     "rpg": 0.4,
     "playoffAppearances": 0,
     "mpg": 3.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1643060",
@@ -4764,7 +4722,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 6.0,
     "apg": 1.0,
     "rpg": 0.0,
@@ -4788,7 +4745,6 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": null,
-    "careerYears": 8,
     "ppg": 5.4,
     "apg": 1.0,
     "rpg": 1.9,
@@ -4812,7 +4768,6 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 35,
-    "careerYears": 5,
     "ppg": 8.9,
     "apg": 2.8,
     "rpg": 3.4,
@@ -4837,7 +4792,6 @@
     "country": "Spain",
     "draftYear": 2025,
     "draftPick": 28,
-    "careerYears": 1,
     "ppg": 3.9,
     "apg": 0.5,
     "rpg": 3.3,
@@ -4861,7 +4815,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 2.4,
     "apg": 0.4,
     "rpg": 1.0,
@@ -4885,13 +4838,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 1.0,
     "apg": 0.6,
     "rpg": 0.1,
     "playoffAppearances": 0,
     "mpg": 3.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1641816",
@@ -4909,13 +4862,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 37,
-    "careerYears": 3,
     "ppg": 2.2,
     "apg": 0.8,
     "rpg": 1.7,
     "playoffAppearances": 2,
     "mpg": 7.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1630193",
@@ -4933,13 +4886,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 25,
-    "careerYears": 6,
     "ppg": 16.4,
     "apg": 5.9,
     "rpg": 4.0,
     "playoffAppearances": 2,
     "mpg": 31.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1642403",
@@ -4957,13 +4910,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 1.3,
     "apg": 0.1,
     "rpg": 0.7,
     "playoffAppearances": 0,
     "mpg": 5.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1630171",
@@ -4981,13 +4934,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 5,
-    "careerYears": 6,
     "ppg": 9.3,
     "apg": 1.6,
     "rpg": 2.7,
     "playoffAppearances": 3,
     "mpg": 26.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1642268",
@@ -5005,13 +4958,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 29,
-    "careerYears": 2,
     "ppg": 11.7,
     "apg": 7.2,
     "rpg": 2.5,
     "playoffAppearances": 0,
     "mpg": 25.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1642384",
@@ -5029,13 +4982,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 2.0,
     "apg": 0.4,
     "rpg": 1.1,
     "playoffAppearances": 0,
     "mpg": 6.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1628392",
@@ -5053,13 +5006,13 @@
     "country": "Germany",
     "draftYear": 2017,
     "draftPick": 43,
-    "careerYears": 8,
     "ppg": 9.2,
     "apg": 3.5,
     "rpg": 9.4,
     "playoffAppearances": 4,
     "mpg": 24.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1630543",
@@ -5077,13 +5030,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 22,
-    "careerYears": 5,
     "ppg": 6.7,
     "apg": 0.9,
     "rpg": 5.3,
     "playoffAppearances": 1,
     "mpg": 16.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1630198",
@@ -5101,13 +5054,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 49,
-    "careerYears": 6,
     "ppg": 11.1,
     "apg": 1.3,
     "rpg": 2.5,
     "playoffAppearances": 4,
     "mpg": 21.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1630587",
@@ -5125,7 +5078,6 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 42,
-    "careerYears": 5,
     "ppg": 1.8,
     "apg": 0.6,
     "rpg": 1.7,
@@ -5149,7 +5101,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 3.3,
     "apg": 3.3,
     "rpg": 1.0,
@@ -5173,7 +5124,6 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 16,
-    "careerYears": 6,
     "ppg": 10.0,
     "apg": 1.1,
     "rpg": 5.0,
@@ -5197,7 +5147,6 @@
     "country": "Croatia",
     "draftYear": 2016,
     "draftPick": 32,
-    "careerYears": 10,
     "ppg": 14.1,
     "apg": 2.2,
     "rpg": 10.6,
@@ -5221,7 +5170,6 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 53,
-    "careerYears": 4,
     "ppg": 2.5,
     "apg": 1.3,
     "rpg": 1.2,
@@ -5246,7 +5194,6 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 2,
-    "careerYears": 7,
     "ppg": 19.5,
     "apg": 8.1,
     "rpg": 3.3,
@@ -5271,7 +5218,6 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 19,
-    "careerYears": 2,
     "ppg": 7.5,
     "apg": 1.2,
     "rpg": 2.6,
@@ -5297,13 +5243,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 3,
-    "careerYears": 4,
     "ppg": 15.8,
     "apg": 1.9,
     "rpg": 6.9,
     "playoffAppearances": 1,
     "mpg": 35.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1631133",
@@ -5321,13 +5267,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 57,
-    "careerYears": 4,
     "ppg": 4.3,
     "apg": 0.5,
     "rpg": 3.0,
     "playoffAppearances": 0,
     "mpg": 11.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1631210",
@@ -5345,13 +5291,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 3,
     "ppg": 1.6,
     "apg": 0.2,
     "rpg": 0.2,
     "playoffAppearances": 0,
     "mpg": 3.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1630702",
@@ -5369,13 +5315,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 37,
-    "careerYears": 4,
     "ppg": 9.2,
     "apg": 1.0,
     "rpg": 1.5,
     "playoffAppearances": 1,
     "mpg": 15.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1631093",
@@ -5393,13 +5339,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 5,
-    "careerYears": 4,
     "ppg": 8.5,
     "apg": 1.8,
     "rpg": 2.5,
     "playoffAppearances": 0,
     "mpg": 18.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1630183",
@@ -5417,13 +5363,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 28,
-    "careerYears": 6,
     "ppg": 14.8,
     "apg": 2.7,
     "rpg": 4.2,
     "playoffAppearances": 3,
     "mpg": 31.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1630256",
@@ -5442,13 +5388,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 6,
     "ppg": 2.8,
     "apg": 0.5,
     "rpg": 1.6,
     "playoffAppearances": 0,
     "mpg": 8.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1642942",
@@ -5466,13 +5412,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 59,
-    "careerYears": 1,
     "ppg": 6.2,
     "apg": 2.2,
     "rpg": 2.6,
     "playoffAppearances": 0,
     "mpg": 21.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1642443",
@@ -5490,13 +5436,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 1.8,
     "apg": 0.6,
     "rpg": 0.3,
     "playoffAppearances": 0,
     "mpg": 4.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1643141",
@@ -5514,13 +5460,13 @@
     "country": "Canada",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 0.1,
     "apg": 0.1,
     "rpg": 0.4,
     "playoffAppearances": 0,
     "mpg": 4.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1631170",
@@ -5540,13 +5486,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 18,
-    "careerYears": 3,
     "ppg": 15.4,
     "apg": 4.7,
     "rpg": 5.0,
     "playoffAppearances": 2,
     "mpg": 28.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1631222",
@@ -5564,7 +5510,6 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 19,
-    "careerYears": 4,
     "ppg": 8.2,
     "apg": 1.8,
     "rpg": 4.0,
@@ -5588,7 +5533,6 @@
     "country": "Austria",
     "draftYear": 2016,
     "draftPick": 9,
-    "careerYears": 10,
     "ppg": 10.7,
     "apg": 2.0,
     "rpg": 7.0,
@@ -5613,7 +5557,6 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 33,
-    "careerYears": 8,
     "ppg": 26.0,
     "apg": 6.8,
     "rpg": 3.3,
@@ -5637,7 +5580,6 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 13,
-    "careerYears": 4,
     "ppg": 19.5,
     "apg": 2.0,
     "rpg": 10.5,
@@ -5662,7 +5604,6 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 2,
-    "careerYears": 5,
     "ppg": 17.8,
     "apg": 2.8,
     "rpg": 3.6,
@@ -5686,7 +5627,6 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 20,
-    "careerYears": 5,
     "ppg": 22.5,
     "apg": 7.9,
     "rpg": 10.3,
@@ -5710,7 +5650,6 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 32,
-    "careerYears": 3,
     "ppg": 5.2,
     "apg": 2.3,
     "rpg": 2.3,
@@ -5734,13 +5673,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 54,
-    "careerYears": 3,
     "ppg": 7.3,
     "apg": 2.8,
     "rpg": 4.4,
     "playoffAppearances": 0,
     "mpg": 23.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1630188",
@@ -5758,13 +5697,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 10,
-    "careerYears": 6,
     "ppg": 10.2,
     "apg": 1.2,
     "rpg": 6.7,
     "playoffAppearances": 2,
     "mpg": 20.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1630591",
@@ -5782,13 +5721,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 5,
-    "careerYears": 5,
     "ppg": 13.8,
     "apg": 5.5,
     "rpg": 3.9,
     "playoffAppearances": 1,
     "mpg": 27.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1631114",
@@ -5806,13 +5745,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 12,
-    "careerYears": 4,
     "ppg": 17.1,
     "apg": 5.5,
     "rpg": 4.6,
     "playoffAppearances": 2,
     "mpg": 28.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1630592",
@@ -5830,13 +5769,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 51,
-    "careerYears": 3,
     "ppg": 6.4,
     "apg": 0.9,
     "rpg": 2.1,
     "playoffAppearances": 0,
     "mpg": 15.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1631288",
@@ -5854,13 +5793,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 5.4,
     "apg": 0.7,
     "rpg": 2.0,
     "playoffAppearances": 0,
     "mpg": 12.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1627750",
@@ -5878,13 +5817,13 @@
     "country": "Canada",
     "draftYear": 2016,
     "draftPick": 7,
-    "careerYears": 10,
     "ppg": 25.4,
     "apg": 7.1,
     "rpg": 4.4,
     "playoffAppearances": 5,
     "mpg": 35.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1642347",
@@ -5902,13 +5841,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 45,
-    "careerYears": 2,
     "ppg": 6.6,
     "apg": 5.4,
     "rpg": 1.7,
     "playoffAppearances": 0,
     "mpg": 22.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1631123",
@@ -5926,13 +5865,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 5.7,
     "apg": 1.8,
     "rpg": 1.8,
     "playoffAppearances": 0,
     "mpg": 14.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "201935",
@@ -5951,13 +5890,13 @@
     "country": "USA",
     "draftYear": 2009,
     "draftPick": 3,
-    "careerYears": 17,
     "ppg": 23.6,
     "apg": 8.0,
     "rpg": 4.8,
     "playoffAppearances": 16,
     "mpg": 34.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 36
   },
   {
     "playerId": "1630164",
@@ -5975,13 +5914,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 2,
-    "careerYears": 6,
     "ppg": 3.3,
     "apg": 0.8,
     "rpg": 2.0,
     "playoffAppearances": 0,
     "mpg": 14.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1642364",
@@ -5999,13 +5938,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 43,
-    "careerYears": 1,
     "ppg": 7.4,
     "apg": 1.3,
     "rpg": 3.9,
     "playoffAppearances": 0,
     "mpg": 20.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1642419",
@@ -6023,13 +5962,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 3.1,
     "apg": 0.4,
     "rpg": 1.5,
     "playoffAppearances": 0,
     "mpg": 8.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1641716",
@@ -6047,13 +5986,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 8,
-    "careerYears": 3,
     "ppg": 11.6,
     "apg": 2.5,
     "rpg": 5.1,
     "playoffAppearances": 2,
     "mpg": 25.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1642272",
@@ -6071,13 +6010,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 16,
-    "careerYears": 2,
     "ppg": 8.3,
     "apg": 1.3,
     "rpg": 2.0,
     "playoffAppearances": 0,
     "mpg": 17.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1628991",
@@ -6097,13 +6036,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 4,
-    "careerYears": 8,
     "ppg": 19.4,
     "apg": 2.0,
     "rpg": 5.7,
     "playoffAppearances": 4,
     "mpg": 30.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1629020",
@@ -6121,13 +6060,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 41,
-    "careerYears": 8,
     "ppg": 4.4,
     "apg": 1.3,
     "rpg": 4.5,
     "playoffAppearances": 4,
     "mpg": 17.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1628386",
@@ -6145,13 +6084,13 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 22,
-    "careerYears": 9,
     "ppg": 15.4,
     "apg": 1.8,
     "rpg": 8.5,
     "playoffAppearances": 5,
     "mpg": 27.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1642859",
@@ -6169,13 +6108,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 25,
-    "careerYears": 1,
     "ppg": 4.4,
     "apg": 1.1,
     "rpg": 1.2,
     "playoffAppearances": 0,
     "mpg": 10.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1642914",
@@ -6193,13 +6132,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 48,
-    "careerYears": 1,
     "ppg": 9.7,
     "apg": 3.7,
     "rpg": 3.1,
     "playoffAppearances": 0,
     "mpg": 20.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1631451",
@@ -6217,13 +6156,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 1.2,
     "apg": 0.4,
     "rpg": 1.0,
     "playoffAppearances": 0,
     "mpg": 4.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1629750",
@@ -6241,13 +6180,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 7,
     "ppg": 6.9,
     "apg": 0.7,
     "rpg": 2.8,
     "playoffAppearances": 3,
     "mpg": 17.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 32
   },
   {
     "playerId": "1629637",
@@ -6265,13 +6204,13 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 8,
-    "careerYears": 7,
     "ppg": 7.5,
     "apg": 0.9,
     "rpg": 4.1,
     "playoffAppearances": 3,
     "mpg": 18.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1630643",
@@ -6289,13 +6228,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 5,
     "ppg": 9.5,
     "apg": 1.5,
     "rpg": 4.0,
     "playoffAppearances": 1,
     "mpg": 21.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1627759",
@@ -6314,13 +6253,13 @@
     "country": "USA",
     "draftYear": 2016,
     "draftPick": 3,
-    "careerYears": 10,
     "ppg": 28.7,
     "apg": 5.1,
     "rpg": 6.9,
     "playoffAppearances": 8,
     "mpg": 34.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1641740",
@@ -6338,13 +6277,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 53,
-    "careerYears": 3,
     "ppg": 4.0,
     "apg": 0.6,
     "rpg": 1.8,
     "playoffAppearances": 1,
     "mpg": 13.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1642377",
@@ -6362,13 +6301,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 39,
-    "careerYears": 2,
     "ppg": 12.5,
     "apg": 1.6,
     "rpg": 3.2,
     "playoffAppearances": 0,
     "mpg": 26.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1631119",
@@ -6386,13 +6325,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 34,
-    "careerYears": 4,
     "ppg": 7.2,
     "apg": 2.4,
     "rpg": 5.5,
     "playoffAppearances": 2,
     "mpg": 19.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1642281",
@@ -6410,13 +6349,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 20,
-    "careerYears": 2,
     "ppg": 13.2,
     "apg": 2.2,
     "rpg": 5.1,
     "playoffAppearances": 1,
     "mpg": 26.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1643257",
@@ -6434,13 +6373,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 2.0,
     "apg": 0.0,
     "rpg": 1.0,
     "playoffAppearances": 0,
     "mpg": 4.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1628369",
@@ -6459,13 +6398,13 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 3,
-    "careerYears": 9,
     "ppg": 21.8,
     "apg": 5.3,
     "rpg": 10.0,
     "playoffAppearances": 8,
     "mpg": 32.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "201145",
@@ -6483,13 +6422,13 @@
     "country": "USA",
     "draftYear": 2007,
     "draftPick": 5,
-    "careerYears": 19,
     "ppg": 2.2,
     "apg": 0.3,
     "rpg": 0.8,
     "playoffAppearances": 11,
     "mpg": 5.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 39
   },
   {
     "playerId": "203924",
@@ -6507,13 +6446,13 @@
     "country": "USA",
     "draftYear": 2014,
     "draftPick": 39,
-    "careerYears": 12,
     "ppg": 18.6,
     "apg": 2.1,
     "rpg": 3.5,
     "playoffAppearances": 4,
     "mpg": 29.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 32
   },
   {
     "playerId": "1642847",
@@ -6531,13 +6470,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 7,
-    "careerYears": 1,
     "ppg": 14.3,
     "apg": 3.4,
     "rpg": 3.7,
     "playoffAppearances": 0,
     "mpg": 25.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 19
   },
   {
     "playerId": "1630526",
@@ -6556,13 +6495,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 32,
-    "careerYears": 5,
     "ppg": 4.6,
     "apg": 0.7,
     "rpg": 4.7,
     "playoffAppearances": 1,
     "mpg": 16.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1631110",
@@ -6580,13 +6519,13 @@
     "country": "Poland",
     "draftYear": 2022,
     "draftPick": 9,
-    "careerYears": 4,
     "ppg": 3.6,
     "apg": 0.9,
     "rpg": 2.4,
     "playoffAppearances": 0,
     "mpg": 10.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1630579",
@@ -6604,13 +6543,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 58,
-    "careerYears": 5,
     "ppg": 5.0,
     "apg": 1.6,
     "rpg": 5.5,
     "playoffAppearances": 2,
     "mpg": 19.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1641724",
@@ -6628,13 +6567,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 11,
-    "careerYears": 3,
     "ppg": 5.5,
     "apg": 0.8,
     "rpg": 1.6,
     "playoffAppearances": 2,
     "mpg": 12.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1628975",
@@ -6652,13 +6591,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 32,
-    "careerYears": 8,
     "ppg": 6.4,
     "apg": 1.6,
     "rpg": 1.7,
     "playoffAppearances": 3,
     "mpg": 16.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "202710",
@@ -6677,13 +6616,13 @@
     "country": "USA",
     "draftYear": 2011,
     "draftPick": 30,
-    "careerYears": 15,
     "ppg": 20.0,
     "apg": 4.9,
     "rpg": 5.6,
     "playoffAppearances": 12,
     "mpg": 31.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 36
   },
   {
     "playerId": "1642866",
@@ -6701,13 +6640,13 @@
     "country": "France",
     "draftYear": 2025,
     "draftPick": 17,
-    "careerYears": 1,
     "ppg": 3.9,
     "apg": 0.3,
     "rpg": 2.3,
     "playoffAppearances": 0,
     "mpg": 7.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 19
   },
   {
     "playerId": "1629111",
@@ -6725,13 +6664,13 @@
     "country": "Australia",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 5,
     "ppg": 10.6,
     "apg": 1.7,
     "rpg": 5.7,
     "playoffAppearances": 2,
     "mpg": 22.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "204060",
@@ -6749,13 +6688,13 @@
     "country": "Australia",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 12,
     "ppg": 1.5,
     "apg": 1.3,
     "rpg": 0.7,
     "playoffAppearances": 7,
     "mpg": 5.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 38
   },
   {
     "playerId": "203954",
@@ -6774,13 +6713,13 @@
     "country": "Cameroon",
     "draftYear": 2014,
     "draftPick": 3,
-    "careerYears": 12,
     "ppg": 26.9,
     "apg": 3.9,
     "rpg": 7.7,
     "playoffAppearances": 7,
     "mpg": 31.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 32
   },
   {
     "playerId": "1628381",
@@ -6798,13 +6737,13 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 19,
-    "careerYears": 9,
     "ppg": 13.6,
     "apg": 1.0,
     "rpg": 5.3,
     "playoffAppearances": 3,
     "mpg": 27.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1629723",
@@ -6822,13 +6761,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 7,
     "ppg": 4.4,
     "apg": 2.1,
     "rpg": 4.3,
     "playoffAppearances": 4,
     "mpg": 19.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1642967",
@@ -6846,13 +6785,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 8.8,
     "apg": 0.8,
     "rpg": 2.3,
     "playoffAppearances": 0,
     "mpg": 19.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1642910",
@@ -6870,13 +6809,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 53,
-    "careerYears": 1,
     "ppg": 2.5,
     "apg": 0.3,
     "rpg": 1.0,
     "playoffAppearances": 0,
     "mpg": 7.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1641780",
@@ -6894,13 +6833,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 35,
-    "careerYears": 1,
     "ppg": 0.9,
     "apg": 0.4,
     "rpg": 1.5,
     "playoffAppearances": 0,
     "mpg": 5.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1642277",
@@ -6918,13 +6857,13 @@
     "country": "Australia",
     "draftYear": 2024,
     "draftPick": 35,
-    "careerYears": 2,
     "ppg": 5.1,
     "apg": 1.2,
     "rpg": 4.4,
     "playoffAppearances": 1,
     "mpg": 18.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1630548",
@@ -6942,13 +6881,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 2.0,
     "apg": 0.3,
     "rpg": 0.8,
     "playoffAppearances": 0,
     "mpg": 4.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "202685",
@@ -6967,13 +6906,13 @@
     "country": "Lithuania",
     "draftYear": 2011,
     "draftPick": 5,
-    "careerYears": 14,
     "ppg": 8.7,
     "apg": 1.2,
     "rpg": 5.1,
     "playoffAppearances": 8,
     "mpg": 13.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 33
   },
   {
     "playerId": "1628371",
@@ -6991,13 +6930,13 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 6,
-    "careerYears": 9,
     "ppg": 2.6,
     "apg": 0.4,
     "rpg": 2.5,
     "playoffAppearances": 3,
     "mpg": 10.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1630228",
@@ -7015,13 +6954,13 @@
     "country": "DRC",
     "draftYear": 2021,
     "draftPick": 7,
-    "careerYears": 5,
     "ppg": 12.2,
     "apg": 2.3,
     "rpg": 5.6,
     "playoffAppearances": 3,
     "mpg": 23.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1642367",
@@ -7039,13 +6978,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 31,
-    "careerYears": 2,
     "ppg": 1.5,
     "apg": 0.6,
     "rpg": 1.7,
     "playoffAppearances": 0,
     "mpg": 6.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "203903",
@@ -7063,13 +7002,13 @@
     "country": "USA",
     "draftYear": 2014,
     "draftPick": 46,
-    "careerYears": 12,
     "ppg": 8.6,
     "apg": 1.3,
     "rpg": 1.8,
     "playoffAppearances": 4,
     "mpg": 17.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 33
   },
   {
     "playerId": "1630692",
@@ -7087,13 +7026,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 5,
     "ppg": 8.7,
     "apg": 2.2,
     "rpg": 4.9,
     "playoffAppearances": 1,
     "mpg": 22.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1641722",
@@ -7111,13 +7050,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 14,
-    "careerYears": 3,
     "ppg": 5.1,
     "apg": 0.8,
     "rpg": 1.7,
     "playoffAppearances": 1,
     "mpg": 13.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1629162",
@@ -7135,13 +7074,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 7,
     "ppg": 2.0,
     "apg": 0.9,
     "rpg": 0.7,
     "playoffAppearances": 3,
     "mpg": 6.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1641757",
@@ -7159,13 +7098,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 48,
-    "careerYears": 3,
     "ppg": 10.0,
     "apg": 2.3,
     "rpg": 3.0,
     "playoffAppearances": 1,
     "mpg": 22.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1629673",
@@ -7183,13 +7122,13 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 28,
-    "careerYears": 7,
     "ppg": 13.4,
     "apg": 3.1,
     "rpg": 2.0,
     "playoffAppearances": 2,
     "mpg": 23.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1641775",
@@ -7207,13 +7146,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 38,
-    "careerYears": 3,
     "ppg": 5.4,
     "apg": 0.8,
     "rpg": 4.0,
     "playoffAppearances": 2,
     "mpg": 17.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1630631",
@@ -7231,13 +7170,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 5,
     "ppg": 7.4,
     "apg": 3.4,
     "rpg": 2.5,
     "playoffAppearances": 2,
     "mpg": 19.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1630581",
@@ -7255,13 +7194,13 @@
     "country": "Australia",
     "draftYear": 2021,
     "draftPick": 6,
-    "careerYears": 5,
     "ppg": 17.0,
     "apg": 9.1,
     "rpg": 8.3,
     "playoffAppearances": 1,
     "mpg": 32.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1630182",
@@ -7279,13 +7218,13 @@
     "country": "Australia",
     "draftYear": 2020,
     "draftPick": 18,
-    "careerYears": 6,
     "ppg": 4.3,
     "apg": 0.8,
     "rpg": 1.8,
     "playoffAppearances": 3,
     "mpg": 15.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1628404",
@@ -7303,13 +7242,13 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 30,
-    "careerYears": 9,
     "ppg": 12.0,
     "apg": 4.8,
     "rpg": 7.4,
     "playoffAppearances": 3,
     "mpg": 30.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 31
   },
   {
     "playerId": "1631169",
@@ -7327,13 +7266,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 45,
-    "careerYears": 4,
     "ppg": 7.4,
     "apg": 0.9,
     "rpg": 3.2,
     "playoffAppearances": 3,
     "mpg": 17.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1642490",
@@ -7351,13 +7290,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 8.3,
     "apg": 1.3,
     "rpg": 7.7,
     "playoffAppearances": 0,
     "mpg": 27.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1629006",
@@ -7375,13 +7314,13 @@
     "country": "Nigeria",
     "draftYear": 2018,
     "draftPick": 20,
-    "careerYears": 8,
     "ppg": 4.5,
     "apg": 0.9,
     "rpg": 2.6,
     "playoffAppearances": 3,
     "mpg": 17.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "201950",
@@ -7400,13 +7339,13 @@
     "country": "USA",
     "draftYear": 2009,
     "draftPick": 17,
-    "careerYears": 17,
     "ppg": 16.3,
     "apg": 6.1,
     "rpg": 4.6,
     "playoffAppearances": 9,
     "mpg": 29.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 35
   },
   {
     "playerId": "1630577",
@@ -7424,13 +7363,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 11.1,
     "apg": 1.5,
     "rpg": 5.8,
     "playoffAppearances": 0,
     "mpg": 27.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1641763",
@@ -7448,13 +7387,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 35,
-    "careerYears": 3,
     "ppg": 2.9,
     "apg": 0.2,
     "rpg": 1.0,
     "playoffAppearances": 0,
     "mpg": 8.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1642882",
@@ -7472,13 +7411,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 11.8,
     "apg": 1.8,
     "rpg": 10.5,
     "playoffAppearances": 0,
     "mpg": 30.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1631124",
@@ -7496,13 +7435,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 29,
-    "careerYears": 3,
     "ppg": 7.2,
     "apg": 1.1,
     "rpg": 2.0,
     "playoffAppearances": 2,
     "mpg": 15.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "203944",
@@ -7521,13 +7460,13 @@
     "country": "USA",
     "draftYear": 2014,
     "draftPick": 7,
-    "careerYears": 12,
     "ppg": 21.1,
     "apg": 5.0,
     "rpg": 6.7,
     "playoffAppearances": 3,
     "mpg": 33.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 31
   },
   {
     "playerId": "1630551",
@@ -7545,13 +7484,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 5,
     "ppg": 8.7,
     "apg": 1.2,
     "rpg": 5.6,
     "playoffAppearances": 1,
     "mpg": 20.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1642348",
@@ -7569,13 +7508,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 6.0,
     "apg": 1.3,
     "rpg": 1.5,
     "playoffAppearances": 0,
     "mpg": 15.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "203994",
@@ -7594,13 +7533,13 @@
     "country": "Bosnia and Herzegovina",
     "draftYear": 2014,
     "draftPick": 16,
-    "careerYears": 12,
     "ppg": 10.9,
     "apg": 4.8,
     "rpg": 10.4,
     "playoffAppearances": 5,
     "mpg": 26.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 31
   },
   {
     "playerId": "1642354",
@@ -7618,13 +7557,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 42,
-    "careerYears": 2,
     "ppg": 4.6,
     "apg": 2.2,
     "rpg": 1.9,
     "playoffAppearances": 0,
     "mpg": 12.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1642955",
@@ -7642,13 +7581,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 8.3,
     "apg": 2.7,
     "rpg": 3.3,
     "playoffAppearances": 0,
     "mpg": 22.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1642880",
@@ -7666,13 +7605,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 38,
-    "careerYears": 1,
     "ppg": 4.4,
     "apg": 3.2,
     "rpg": 1.6,
     "playoffAppearances": 0,
     "mpg": 16.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1626157",
@@ -7692,13 +7631,13 @@
     "country": "USA",
     "draftYear": 2015,
     "draftPick": 1,
-    "careerYears": 11,
     "ppg": 20.1,
     "apg": 3.0,
     "rpg": 11.9,
     "playoffAppearances": 5,
     "mpg": 31.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1631255",
@@ -7717,13 +7656,13 @@
     "country": "Bosnia and Herzegovina",
     "draftYear": 2022,
     "draftPick": 52,
-    "careerYears": 2,
     "ppg": 5.7,
     "apg": 0.8,
     "rpg": 3.7,
     "playoffAppearances": 0,
     "mpg": 14.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1642857",
@@ -7742,13 +7681,13 @@
     "country": "Lithuania",
     "draftYear": 2025,
     "draftPick": 20,
-    "careerYears": 1,
     "ppg": 6.2,
     "apg": 2.6,
     "rpg": 2.6,
     "playoffAppearances": 0,
     "mpg": 17.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 19
   },
   {
     "playerId": "202695",
@@ -7767,13 +7706,13 @@
     "country": "USA",
     "draftYear": 2011,
     "draftPick": 15,
-    "careerYears": 15,
     "ppg": 27.9,
     "apg": 3.6,
     "rpg": 6.4,
     "playoffAppearances": 12,
     "mpg": 32.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 34
   },
   {
     "playerId": "1630811",
@@ -7791,13 +7730,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 3.5,
     "apg": 1.8,
     "rpg": 1.1,
     "playoffAppearances": 0,
     "mpg": 10.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1631099",
@@ -7815,13 +7754,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 4,
-    "careerYears": 4,
     "ppg": 14.0,
     "apg": 1.7,
     "rpg": 5.7,
     "playoffAppearances": 1,
     "mpg": 34.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1642276",
@@ -7840,13 +7779,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 15,
-    "careerYears": 2,
     "ppg": 11.1,
     "apg": 0.7,
     "rpg": 9.0,
     "playoffAppearances": 1,
     "mpg": 22.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1629640",
@@ -7864,13 +7803,13 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 29,
-    "careerYears": 7,
     "ppg": 13.2,
     "apg": 1.4,
     "rpg": 5.4,
     "playoffAppearances": 0,
     "mpg": 23.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "203482",
@@ -7888,13 +7827,13 @@
     "country": "Canada",
     "draftYear": 2013,
     "draftPick": 13,
-    "careerYears": 13,
     "ppg": 3.2,
     "apg": 1.2,
     "rpg": 1.8,
     "playoffAppearances": 5,
     "mpg": 8.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 34
   },
   {
     "playerId": "1626162",
@@ -7914,13 +7853,13 @@
     "country": "USA",
     "draftYear": 2015,
     "draftPick": 15,
-    "careerYears": 11,
     "ppg": 14.1,
     "apg": 1.6,
     "rpg": 5.0,
     "playoffAppearances": 3,
     "mpg": 31.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1631113",
@@ -7938,13 +7877,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 38,
-    "careerYears": 4,
     "ppg": 15.0,
     "apg": 6.7,
     "rpg": 3.4,
     "playoffAppearances": 0,
     "mpg": 32.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1629026",
@@ -7962,13 +7901,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 8,
     "ppg": 6.5,
     "apg": 1.4,
     "rpg": 3.3,
     "playoffAppearances": 2,
     "mpg": 15.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 31
   },
   {
     "playerId": "203484",
@@ -7987,13 +7926,13 @@
     "country": "USA",
     "draftYear": 2013,
     "draftPick": 8,
-    "careerYears": 13,
     "ppg": 8.4,
     "apg": 2.7,
     "rpg": 2.5,
     "playoffAppearances": 6,
     "mpg": 21.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 33
   },
   {
     "playerId": "1631165",
@@ -8011,13 +7950,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 6.7,
     "apg": 1.0,
     "rpg": 1.9,
     "playoffAppearances": 0,
     "mpg": 20.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1642352",
@@ -8035,13 +7974,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 4.3,
     "apg": 0.3,
     "rpg": 1.9,
     "playoffAppearances": 1,
     "mpg": 8.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1642933",
@@ -8059,13 +7998,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 4.3,
     "apg": 3.0,
     "rpg": 1.3,
     "playoffAppearances": 0,
     "mpg": 18.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "201142",
@@ -8084,13 +8023,13 @@
     "country": "USA",
     "draftYear": 2007,
     "draftPick": 2,
-    "careerYears": 19,
     "ppg": 26.0,
     "apg": 4.8,
     "rpg": 5.5,
     "playoffAppearances": 13,
     "mpg": 36.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 37
   },
   {
     "playerId": "1628989",
@@ -8108,13 +8047,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 19,
-    "careerYears": 8,
     "ppg": 10.0,
     "apg": 2.6,
     "rpg": 3.5,
     "playoffAppearances": 3,
     "mpg": 22.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "201567",
@@ -8132,13 +8071,13 @@
     "country": "USA",
     "draftYear": 2008,
     "draftPick": 5,
-    "careerYears": 18,
     "ppg": 6.7,
     "apg": 1.8,
     "rpg": 5.8,
     "playoffAppearances": 6,
     "mpg": 16.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 37
   },
   {
     "playerId": "1641755",
@@ -8158,13 +8097,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 56,
-    "careerYears": 2,
     "ppg": 2.4,
     "apg": 1.0,
     "rpg": 1.3,
     "playoffAppearances": 0,
     "mpg": 7.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1629645",
@@ -8184,13 +8123,13 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 30,
-    "careerYears": 7,
     "ppg": 17.4,
     "apg": 7.4,
     "rpg": 5.2,
     "playoffAppearances": 1,
     "mpg": 33.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1626172",
@@ -8208,13 +8147,13 @@
     "country": "USA",
     "draftYear": 2015,
     "draftPick": 30,
-    "careerYears": 11,
     "ppg": 2.8,
     "apg": 1.6,
     "rpg": 5.6,
     "playoffAppearances": 5,
     "mpg": 14.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1641718",
@@ -8232,13 +8171,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 16,
-    "careerYears": 3,
     "ppg": 23.6,
     "apg": 6.1,
     "rpg": 3.7,
     "playoffAppearances": 0,
     "mpg": 33.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1642863",
@@ -8256,13 +8195,13 @@
     "country": "South Sudan",
     "draftYear": 2025,
     "draftPick": 10,
-    "careerYears": 1,
     "ppg": 3.0,
     "apg": 0.1,
     "rpg": 2.9,
     "playoffAppearances": 0,
     "mpg": 8.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 19
   },
   {
     "playerId": "203114",
@@ -8280,13 +8219,13 @@
     "country": "USA",
     "draftYear": 2012,
     "draftPick": 39,
-    "careerYears": 14,
     "ppg": 10.2,
     "apg": 2.8,
     "rpg": 3.7,
     "playoffAppearances": 9,
     "mpg": 22.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 34
   },
   {
     "playerId": "1630165",
@@ -8304,13 +8243,13 @@
     "country": "France",
     "draftYear": 2020,
     "draftPick": 7,
-    "careerYears": 6,
     "ppg": 5.5,
     "apg": 3.5,
     "rpg": 2.3,
     "playoffAppearances": 0,
     "mpg": 17.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "202691",
@@ -8329,13 +8268,13 @@
     "country": "USA",
     "draftYear": 2011,
     "draftPick": 11,
-    "careerYears": 15,
     "ppg": 11.7,
     "apg": 1.4,
     "rpg": 2.1,
     "playoffAppearances": 9,
     "mpg": 21.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 36
   },
   {
     "playerId": "1641738",
@@ -8353,13 +8292,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 30,
-    "careerYears": 3,
     "ppg": 5.8,
     "apg": 1.3,
     "rpg": 3.0,
     "playoffAppearances": 2,
     "mpg": 15.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1641723",
@@ -8377,13 +8316,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 15,
-    "careerYears": 3,
     "ppg": 2.9,
     "apg": 0.6,
     "rpg": 0.8,
     "playoffAppearances": 0,
     "mpg": 7.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1642920",
@@ -8401,13 +8340,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 50,
-    "careerYears": 1,
     "ppg": 7.3,
     "apg": 1.6,
     "rpg": 2.3,
     "playoffAppearances": 0,
     "mpg": 19.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1642886",
@@ -8425,13 +8364,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 41,
-    "careerYears": 1,
     "ppg": 3.8,
     "apg": 0.8,
     "rpg": 0.7,
     "playoffAppearances": 0,
     "mpg": 7.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1642851",
@@ -8449,13 +8388,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 4,
-    "careerYears": 1,
     "ppg": 18.5,
     "apg": 3.4,
     "rpg": 5.3,
     "playoffAppearances": 0,
     "mpg": 31.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1627739",
@@ -8473,13 +8412,13 @@
     "country": "USA",
     "draftYear": 2016,
     "draftPick": 5,
-    "careerYears": 10,
     "ppg": 7.3,
     "apg": 3.6,
     "rpg": 3.3,
     "playoffAppearances": 2,
     "mpg": 27.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 32
   },
   {
     "playerId": "1631200",
@@ -8497,13 +8436,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 23,
-    "careerYears": 3,
     "ppg": 5.8,
     "apg": 1.4,
     "rpg": 3.6,
     "playoffAppearances": 0,
     "mpg": 23.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "204001",
@@ -8522,13 +8461,13 @@
     "country": "Latvia",
     "draftYear": 2015,
     "draftPick": 4,
-    "careerYears": 11,
     "ppg": 16.7,
     "apg": 2.5,
     "rpg": 5.2,
     "playoffAppearances": 4,
     "mpg": 24.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "203937",
@@ -8546,13 +8485,13 @@
     "country": "USA",
     "draftYear": 2014,
     "draftPick": 30,
-    "careerYears": 12,
     "ppg": 6.2,
     "apg": 2.9,
     "rpg": 3.5,
     "playoffAppearances": 8,
     "mpg": 19.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 32
   },
   {
     "playerId": "1642271",
@@ -8570,13 +8509,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 32,
-    "careerYears": 2,
     "ppg": 11.4,
     "apg": 2.6,
     "rpg": 7.2,
     "playoffAppearances": 0,
     "mpg": 23.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1628398",
@@ -8594,13 +8533,13 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 27,
-    "careerYears": 9,
     "ppg": 13.0,
     "apg": 2.7,
     "rpg": 4.5,
     "playoffAppearances": 3,
     "mpg": 26.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "200768",
@@ -8618,13 +8557,13 @@
     "country": "USA",
     "draftYear": 2006,
     "draftPick": 24,
-    "careerYears": 20,
     "ppg": 1.2,
     "apg": 0.8,
     "rpg": 0.6,
     "playoffAppearances": 11,
     "mpg": 8.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 40
   },
   {
     "playerId": "1642273",
@@ -8642,13 +8581,13 @@
     "country": "Switzerland",
     "draftYear": 2024,
     "draftPick": 24,
-    "careerYears": 2,
     "ppg": 14.8,
     "apg": 4.5,
     "rpg": 5.1,
     "playoffAppearances": 0,
     "mpg": 29.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1643018",
@@ -8666,13 +8605,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 8.2,
     "apg": 1.0,
     "rpg": 1.6,
     "playoffAppearances": 0,
     "mpg": 16.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1630163",
@@ -8691,13 +8630,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 3,
-    "careerYears": 6,
     "ppg": 20.1,
     "apg": 7.1,
     "rpg": 4.8,
     "playoffAppearances": 0,
     "mpg": 28.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1642950",
@@ -8715,13 +8654,13 @@
     "country": "Australia",
     "draftYear": 2025,
     "draftPick": 55,
-    "careerYears": 1,
     "ppg": 2.4,
     "apg": 1.1,
     "rpg": 3.0,
     "playoffAppearances": 0,
     "mpg": 9.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1629013",
@@ -8739,13 +8678,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 26,
-    "careerYears": 8,
     "ppg": 9.3,
     "apg": 1.4,
     "rpg": 1.8,
     "playoffAppearances": 6,
     "mpg": 23.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1626204",
@@ -8765,13 +8704,13 @@
     "country": "USA",
     "draftYear": 2015,
     "draftPick": 27,
-    "careerYears": 11,
     "ppg": 3.7,
     "apg": 1.0,
     "rpg": 2.7,
     "playoffAppearances": 3,
     "mpg": 12.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 33
   },
   {
     "playerId": "1628374",
@@ -8789,13 +8728,13 @@
     "country": "Finland",
     "draftYear": 2017,
     "draftPick": 7,
-    "careerYears": 9,
     "ppg": 26.7,
     "apg": 2.1,
     "rpg": 6.9,
     "playoffAppearances": 0,
     "mpg": 34.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1643133",
@@ -8813,13 +8752,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 7.0,
     "apg": 1.5,
     "rpg": 7.5,
     "playoffAppearances": 0,
     "mpg": 24.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "2544",
@@ -8841,13 +8780,13 @@
     "country": "USA",
     "draftYear": 2003,
     "draftPick": 1,
-    "careerYears": 23,
     "ppg": 20.9,
     "apg": 7.2,
     "rpg": 6.1,
     "playoffAppearances": 18,
     "mpg": 33.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 41
   },
   {
     "playerId": "1641778",
@@ -8865,13 +8804,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 3,
     "ppg": 7.1,
     "apg": 1.5,
     "rpg": 5.0,
     "playoffAppearances": 0,
     "mpg": 28.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1631159",
@@ -8889,13 +8828,13 @@
     "country": "Canada",
     "draftYear": 2023,
     "draftPick": 33,
-    "careerYears": 3,
     "ppg": 7.8,
     "apg": 0.9,
     "rpg": 3.9,
     "playoffAppearances": 2,
     "mpg": 15.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1642862",
@@ -8913,13 +8852,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 29,
-    "careerYears": 1,
     "ppg": 4.3,
     "apg": 0.8,
     "rpg": 2.4,
     "playoffAppearances": 0,
     "mpg": 11.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1630322",
@@ -8938,13 +8877,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 5,
     "ppg": 2.4,
     "apg": 0.5,
     "rpg": 0.7,
     "playoffAppearances": 1,
     "mpg": 7.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1628366",
@@ -8962,13 +8901,13 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 2,
-    "careerYears": 9,
     "ppg": 4.6,
     "apg": 3.9,
     "rpg": 4.0,
     "playoffAppearances": 0,
     "mpg": 20.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1631351",
@@ -8986,13 +8925,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 10.4,
     "apg": 2.6,
     "rpg": 5.4,
     "playoffAppearances": 0,
     "mpg": 32.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1629652",
@@ -9010,13 +8949,13 @@
     "country": "Canada",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 7,
     "ppg": 8.3,
     "apg": 1.2,
     "rpg": 3.6,
     "playoffAppearances": 3,
     "mpg": 26.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1629029",
@@ -9035,7 +8974,6 @@
     "country": "Slovenia",
     "draftYear": 2018,
     "draftPick": 3,
-    "careerYears": 8,
     "ppg": 33.5,
     "apg": 8.3,
     "rpg": 7.7,
@@ -9059,7 +8997,6 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 52,
-    "careerYears": 5,
     "ppg": 8.1,
     "apg": 1.0,
     "rpg": 4.1,
@@ -9083,7 +9020,6 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 12,
-    "careerYears": 9,
     "ppg": 8.4,
     "apg": 2.2,
     "rpg": 2.3,
@@ -9107,7 +9043,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 9,
     "ppg": 6.5,
     "apg": 1.9,
     "rpg": 6.1,
@@ -9131,7 +9066,6 @@
     "country": "Australia",
     "draftYear": 2022,
     "draftPick": 56,
-    "careerYears": 2,
     "ppg": 2.3,
     "apg": 0.8,
     "rpg": 2.0,
@@ -9155,13 +9089,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 5,
     "ppg": 6.1,
     "apg": 0.9,
     "rpg": 0.9,
     "playoffAppearances": 0,
     "mpg": 12.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1641869",
@@ -9179,13 +9113,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 8.3,
     "apg": 3.3,
     "rpg": 3.4,
     "playoffAppearances": 0,
     "mpg": 23.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1631103",
@@ -9203,13 +9137,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 20,
-    "careerYears": 4,
     "ppg": 4.6,
     "apg": 0.8,
     "rpg": 1.6,
     "playoffAppearances": 0,
     "mpg": 9.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1642502",
@@ -9227,13 +9161,13 @@
     "country": "Netherlands",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 3.3,
     "apg": 0.9,
     "rpg": 2.1,
     "playoffAppearances": 0,
     "mpg": 11.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1628370",
@@ -9251,13 +9185,13 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 11,
-    "careerYears": 9,
     "ppg": 12.5,
     "apg": 3.0,
     "rpg": 1.9,
     "playoffAppearances": 1,
     "mpg": 22.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1630699",
@@ -9275,13 +9209,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 24,
-    "careerYears": 4,
     "ppg": 6.8,
     "apg": 1.1,
     "rpg": 2.3,
     "playoffAppearances": 2,
     "mpg": 14.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1631204",
@@ -9299,13 +9233,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 25,
-    "careerYears": 3,
     "ppg": 5.2,
     "apg": 2.0,
     "rpg": 1.0,
     "playoffAppearances": 0,
     "mpg": 12.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "203935",
@@ -9323,13 +9257,13 @@
     "country": "USA",
     "draftYear": 2014,
     "draftPick": 6,
-    "careerYears": 12,
     "ppg": 9.3,
     "apg": 3.0,
     "rpg": 2.8,
     "playoffAppearances": 9,
     "mpg": 28.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 32
   },
   {
     "playerId": "1641813",
@@ -9347,13 +9281,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 3.1,
     "apg": 0.3,
     "rpg": 0.3,
     "playoffAppearances": 0,
     "mpg": 3.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1631109",
@@ -9371,13 +9305,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 15,
-    "careerYears": 4,
     "ppg": 11.7,
     "apg": 1.0,
     "rpg": 8.0,
     "playoffAppearances": 0,
     "mpg": 23.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1628365",
@@ -9395,13 +9329,13 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 1,
-    "careerYears": 9,
     "ppg": 0.8,
     "apg": 1.6,
     "rpg": 0.2,
     "playoffAppearances": 3,
     "mpg": 7.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1628963",
@@ -9420,13 +9354,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 2,
-    "careerYears": 8,
     "ppg": 10.5,
     "apg": 1.4,
     "rpg": 6.1,
     "playoffAppearances": 1,
     "mpg": 20.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "203486",
@@ -9444,13 +9378,13 @@
     "country": "USA",
     "draftYear": 2013,
     "draftPick": 22,
-    "careerYears": 13,
     "ppg": 1.6,
     "apg": 1.0,
     "rpg": 2.7,
     "playoffAppearances": 7,
     "mpg": 8.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 36
   },
   {
     "playerId": "1641824",
@@ -9468,13 +9402,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 11,
-    "careerYears": 2,
     "ppg": 16.3,
     "apg": 2.1,
     "rpg": 5.8,
     "playoffAppearances": 0,
     "mpg": 29.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1629680",
@@ -9492,13 +9426,13 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 20,
-    "careerYears": 7,
     "ppg": 5.8,
     "apg": 0.9,
     "rpg": 2.0,
     "playoffAppearances": 3,
     "mpg": 16.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1631108",
@@ -9516,13 +9450,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 35,
-    "careerYears": 4,
     "ppg": 12.3,
     "apg": 2.0,
     "rpg": 3.2,
     "playoffAppearances": 1,
     "mpg": 29.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1642917",
@@ -9540,13 +9474,13 @@
     "country": "Ukraine",
     "draftYear": 2025,
     "draftPick": 57,
-    "careerYears": 1,
     "ppg": 0.6,
     "apg": 0.2,
     "rpg": 0.5,
     "playoffAppearances": 0,
     "mpg": 3.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1629622",
@@ -9564,13 +9498,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 7,
     "ppg": 11.2,
     "apg": 2.0,
     "rpg": 5.4,
     "playoffAppearances": 5,
     "mpg": 24.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1628467",
@@ -9588,13 +9522,13 @@
     "country": "Germany",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 9,
     "ppg": 2.0,
     "apg": 0.6,
     "rpg": 2.0,
     "playoffAppearances": 5,
     "mpg": 10.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 34
   },
   {
     "playerId": "1642875",
@@ -9612,13 +9546,13 @@
     "country": "France",
     "draftYear": 2025,
     "draftPick": 42,
-    "careerYears": 1,
     "ppg": 12.5,
     "apg": 1.4,
     "rpg": 7.5,
     "playoffAppearances": 0,
     "mpg": 26.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1642877",
@@ -9636,13 +9570,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 40,
-    "careerYears": 1,
     "ppg": 4.3,
     "apg": 1.0,
     "rpg": 1.9,
     "playoffAppearances": 0,
     "mpg": 15.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1630695",
@@ -9660,13 +9594,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 5,
     "ppg": 9.7,
     "apg": 1.5,
     "rpg": 5.0,
     "playoffAppearances": 0,
     "mpg": 19.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1629008",
@@ -9686,13 +9620,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 14,
-    "careerYears": 8,
     "ppg": 24.2,
     "apg": 3.0,
     "rpg": 7.1,
     "playoffAppearances": 5,
     "mpg": 32.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1628969",
@@ -9710,13 +9644,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 10,
-    "careerYears": 8,
     "ppg": 14.4,
     "apg": 3.7,
     "rpg": 3.8,
     "playoffAppearances": 4,
     "mpg": 32.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "201144",
@@ -9734,13 +9668,13 @@
     "country": "USA",
     "draftYear": 2007,
     "draftPick": 4,
-    "careerYears": 19,
     "ppg": 4.5,
     "apg": 2.9,
     "rpg": 1.7,
     "playoffAppearances": 12,
     "mpg": 18.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 38
   },
   {
     "playerId": "1628970",
@@ -9758,13 +9692,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 12,
-    "careerYears": 8,
     "ppg": 17.1,
     "apg": 3.2,
     "rpg": 5.8,
     "playoffAppearances": 0,
     "mpg": 31.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1642939",
@@ -9782,13 +9716,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 3.1,
     "apg": 0.9,
     "rpg": 1.7,
     "playoffAppearances": 0,
     "mpg": 9.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1630540",
@@ -9806,13 +9740,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 36,
-    "careerYears": 5,
     "ppg": 12.0,
     "apg": 2.6,
     "rpg": 2.4,
     "playoffAppearances": 3,
     "mpg": 26.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1629011",
@@ -9830,13 +9764,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 36,
-    "careerYears": 8,
     "ppg": 5.7,
     "apg": 0.9,
     "rpg": 8.8,
     "playoffAppearances": 3,
     "mpg": 19.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1628964",
@@ -9854,13 +9788,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 6,
-    "careerYears": 8,
     "ppg": 2.5,
     "apg": 0.3,
     "rpg": 5.5,
     "playoffAppearances": 1,
     "mpg": 11.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1642885",
@@ -9878,13 +9812,13 @@
     "country": "France",
     "draftYear": 2025,
     "draftPick": 51,
-    "careerYears": 1,
     "ppg": 3.6,
     "apg": 0.8,
     "rpg": 1.4,
     "playoffAppearances": 0,
     "mpg": 9.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1628420",
@@ -9902,13 +9836,13 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 51,
-    "careerYears": 9,
     "ppg": 3.0,
     "apg": 1.5,
     "rpg": 1.2,
     "playoffAppearances": 5,
     "mpg": 10.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1629021",
@@ -9926,13 +9860,13 @@
     "country": "Germany",
     "draftYear": 2018,
     "draftPick": 25,
-    "careerYears": 8,
     "ppg": 6.9,
     "apg": 0.8,
     "rpg": 3.2,
     "playoffAppearances": 1,
     "mpg": 11.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1630541",
@@ -9950,13 +9884,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 14,
-    "careerYears": 5,
     "ppg": 12.1,
     "apg": 1.6,
     "rpg": 3.3,
     "playoffAppearances": 3,
     "mpg": 25.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1631338",
@@ -9974,13 +9908,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 3,
     "ppg": 8.0,
     "apg": 3.0,
     "rpg": 3.0,
     "playoffAppearances": 0,
     "mpg": 22.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1631243",
@@ -9998,13 +9932,13 @@
     "country": "Senegal",
     "draftYear": 2023,
     "draftPick": 39,
-    "careerYears": 3,
     "ppg": 4.4,
     "apg": 0.9,
     "rpg": 3.6,
     "playoffAppearances": 0,
     "mpg": 15.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1630619",
@@ -10022,13 +9956,13 @@
     "country": "Guinea",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 4.5,
     "apg": 0.2,
     "rpg": 5.7,
     "playoffAppearances": 0,
     "mpg": 13.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1631217",
@@ -10047,13 +9981,13 @@
     "country": "France",
     "draftYear": 2022,
     "draftPick": 43,
-    "careerYears": 4,
     "ppg": 7.9,
     "apg": 1.9,
     "rpg": 8.7,
     "playoffAppearances": 0,
     "mpg": 26.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1626167",
@@ -10071,13 +10005,13 @@
     "country": "USA",
     "draftYear": 2015,
     "draftPick": 11,
-    "careerYears": 11,
     "ppg": 11.9,
     "apg": 1.5,
     "rpg": 5.3,
     "playoffAppearances": 7,
     "mpg": 26.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1642066",
@@ -10095,13 +10029,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 3.6,
     "apg": 1.0,
     "rpg": 2.7,
     "playoffAppearances": 0,
     "mpg": 9.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1642368",
@@ -10120,13 +10054,13 @@
     "country": "Mali",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 0.8,
     "apg": 0.0,
     "rpg": 1.8,
     "playoffAppearances": 0,
     "mpg": 3.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1641772",
@@ -10145,13 +10079,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 5.8,
     "apg": 0.8,
     "rpg": 2.9,
     "playoffAppearances": 0,
     "mpg": 15.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1630230",
@@ -10169,13 +10103,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 6,
     "ppg": 15.2,
     "apg": 3.3,
     "rpg": 4.7,
     "playoffAppearances": 2,
     "mpg": 29.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1631466",
@@ -10193,13 +10127,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 8.0,
     "apg": 1.0,
     "rpg": 2.1,
     "playoffAppearances": 1,
     "mpg": 17.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1629675",
@@ -10217,13 +10151,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 7,
     "ppg": 13.6,
     "apg": 2.2,
     "rpg": 6.2,
     "playoffAppearances": 3,
     "mpg": 26.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1629674",
@@ -10241,13 +10175,13 @@
     "country": "Portugal",
     "draftYear": 2021,
     "draftPick": 39,
-    "careerYears": 5,
     "ppg": 10.2,
     "apg": 1.7,
     "rpg": 8.4,
     "playoffAppearances": 2,
     "mpg": 25.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1629651",
@@ -10265,13 +10199,13 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 31,
-    "careerYears": 7,
     "ppg": 11.7,
     "apg": 3.7,
     "rpg": 6.9,
     "playoffAppearances": 3,
     "mpg": 27.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1630208",
@@ -10289,13 +10223,13 @@
     "country": "Jamaica",
     "draftYear": 2020,
     "draftPick": 42,
-    "careerYears": 6,
     "ppg": 5.8,
     "apg": 0.3,
     "rpg": 5.1,
     "playoffAppearances": 0,
     "mpg": 14.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1641733",
@@ -10315,13 +10249,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 27,
-    "careerYears": 3,
     "ppg": 6.2,
     "apg": 1.0,
     "rpg": 0.8,
     "playoffAppearances": 0,
     "mpg": 12.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1629638",
@@ -10340,13 +10274,13 @@
     "country": "Canada",
     "draftYear": 2019,
     "draftPick": 17,
-    "careerYears": 7,
     "ppg": 20.8,
     "apg": 3.7,
     "rpg": 3.4,
     "playoffAppearances": 4,
     "mpg": 33.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "201587",
@@ -10364,13 +10298,13 @@
     "country": "France",
     "draftYear": 2008,
     "draftPick": 25,
-    "careerYears": 18,
     "ppg": 4.0,
     "apg": 0.9,
     "rpg": 2.5,
     "playoffAppearances": 10,
     "mpg": 17.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 37
   },
   {
     "playerId": "1628502",
@@ -10389,13 +10323,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 9,
     "ppg": 1.3,
     "apg": 0.3,
     "rpg": 1.2,
     "playoffAppearances": 0,
     "mpg": 7.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 31
   },
   {
     "playerId": "203999",
@@ -10414,13 +10348,13 @@
     "country": "Serbia",
     "draftYear": 2014,
     "draftPick": 41,
-    "careerYears": 11,
     "ppg": 27.7,
     "apg": 10.7,
     "rpg": 12.9,
     "playoffAppearances": 7,
     "mpg": 34.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 31
   },
   {
     "playerId": "1631107",
@@ -10439,13 +10373,13 @@
     "country": "Serbia",
     "draftYear": 2022,
     "draftPick": 27,
-    "careerYears": 4,
     "ppg": 7.3,
     "apg": 2.2,
     "rpg": 3.3,
     "playoffAppearances": 3,
     "mpg": 17.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1642260",
@@ -10464,13 +10398,13 @@
     "country": "Serbia",
     "draftYear": 2024,
     "draftPick": 12,
-    "careerYears": 2,
     "ppg": 5.2,
     "apg": 4.4,
     "rpg": 1.9,
     "playoffAppearances": 0,
     "mpg": 16.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "202696",
@@ -10489,13 +10423,13 @@
     "country": "Montenegro",
     "draftYear": 2011,
     "draftPick": 16,
-    "careerYears": 15,
     "ppg": 15.1,
     "apg": 3.3,
     "rpg": 8.4,
     "playoffAppearances": 4,
     "mpg": 28.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 35
   },
   {
     "playerId": "1642363",
@@ -10513,7 +10447,6 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 24,
-    "careerYears": 1,
     "ppg": 8.6,
     "apg": 2.4,
     "rpg": 3.8,
@@ -10537,7 +10470,6 @@
     "country": "France",
     "draftYear": 2025,
     "draftPick": 12,
-    "careerYears": 1,
     "ppg": 0.0,
     "apg": 0.0,
     "rpg": 0.0,
@@ -10561,7 +10493,6 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 21,
-    "careerYears": 3,
     "ppg": 12.3,
     "apg": 1.6,
     "rpg": 4.1,
@@ -10585,7 +10516,6 @@
     "country": "France",
     "draftYear": 2025,
     "draftPick": 32,
-    "careerYears": 1,
     "ppg": 3.8,
     "apg": 1.2,
     "rpg": 3.2,
@@ -10609,7 +10539,6 @@
     "country": "France",
     "draftYear": 2025,
     "draftPick": 19,
-    "careerYears": 1,
     "ppg": 8.9,
     "apg": 3.8,
     "rpg": 1.8,
@@ -10633,7 +10562,6 @@
     "country": "Nicaragua",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 2.8,
     "apg": 0.3,
     "rpg": 1.2,
@@ -10657,7 +10585,6 @@
     "country": "USA",
     "draftYear": 2015,
     "draftPick": 46,
-    "careerYears": 11,
     "ppg": 21.7,
     "apg": 2.5,
     "rpg": 3.5,
@@ -10681,7 +10608,6 @@
     "country": "United Kingdom",
     "draftYear": 2017,
     "draftPick": 23,
-    "careerYears": 9,
     "ppg": 16.7,
     "apg": 2.2,
     "rpg": 5.2,
@@ -10705,7 +10631,6 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 8,
-    "careerYears": 6,
     "ppg": 11.6,
     "apg": 2.3,
     "rpg": 4.4,
@@ -10729,13 +10654,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 14,
-    "careerYears": 4,
     "ppg": 5.1,
     "apg": 0.8,
     "rpg": 2.3,
     "playoffAppearances": 0,
     "mpg": 15.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1630846",
@@ -10753,13 +10678,13 @@
     "country": "France",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 5,
     "ppg": 3.5,
     "apg": 1.3,
     "rpg": 2.8,
     "playoffAppearances": 0,
     "mpg": 9.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1641765",
@@ -10778,13 +10703,13 @@
     "country": "Canada",
     "draftYear": 2023,
     "draftPick": 24,
-    "careerYears": 3,
     "ppg": 10.0,
     "apg": 1.0,
     "rpg": 3.5,
     "playoffAppearances": 1,
     "mpg": 18.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1630209",
@@ -10802,13 +10727,13 @@
     "country": "Turkey",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 6,
     "ppg": 3.8,
     "apg": 0.9,
     "rpg": 3.3,
     "playoffAppearances": 2,
     "mpg": 11.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1630168",
@@ -10826,13 +10751,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 6,
-    "careerYears": 6,
     "ppg": 15.2,
     "apg": 3.1,
     "rpg": 7.6,
     "playoffAppearances": 3,
     "mpg": 31.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1631115",
@@ -10850,13 +10775,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 1.8,
     "apg": 0.8,
     "rpg": 1.0,
     "playoffAppearances": 1,
     "mpg": 6.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1631131",
@@ -10874,13 +10799,13 @@
     "country": "DRC",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 3,
     "ppg": 7.8,
     "apg": 1.2,
     "rpg": 6.6,
     "playoffAppearances": 0,
     "mpg": 16.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1642345",
@@ -10898,13 +10823,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 40,
-    "careerYears": 2,
     "ppg": 6.5,
     "apg": 2.3,
     "rpg": 5.1,
     "playoffAppearances": 0,
     "mpg": 22.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1631172",
@@ -10922,13 +10847,13 @@
     "country": "France",
     "draftYear": 2022,
     "draftPick": 11,
-    "careerYears": 4,
     "ppg": 7.6,
     "apg": 2.4,
     "rpg": 3.2,
     "playoffAppearances": 2,
     "mpg": 19.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1629023",
@@ -10947,13 +10872,13 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 12,
-    "careerYears": 7,
     "ppg": 14.2,
     "apg": 1.8,
     "rpg": 7.0,
     "playoffAppearances": 1,
     "mpg": 31.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1641790",
@@ -10971,13 +10896,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 4.5,
     "apg": 0.5,
     "rpg": 3.9,
     "playoffAppearances": 0,
     "mpg": 11.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1642359",
@@ -10996,13 +10921,13 @@
     "country": "France",
     "draftYear": 2024,
     "draftPick": 25,
-    "careerYears": 2,
     "ppg": 1.7,
     "apg": 0.4,
     "rpg": 0.9,
     "playoffAppearances": 1,
     "mpg": 4.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1631094",
@@ -11021,13 +10946,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 1,
-    "careerYears": 4,
     "ppg": 22.2,
     "apg": 5.2,
     "rpg": 8.4,
     "playoffAppearances": 2,
     "mpg": 34.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1627783",
@@ -11045,13 +10970,13 @@
     "country": "Cameroon",
     "draftYear": 2016,
     "draftPick": 27,
-    "careerYears": 10,
     "ppg": 24.0,
     "apg": 3.8,
     "rpg": 6.6,
     "playoffAppearances": 7,
     "mpg": 33.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 32
   },
   {
     "playerId": "1626192",
@@ -11069,13 +10994,13 @@
     "country": "USA",
     "draftYear": 2015,
     "draftPick": 41,
-    "careerYears": 11,
     "ppg": 2.6,
     "apg": 0.4,
     "rpg": 1.5,
     "playoffAppearances": 10,
     "mpg": 7.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 33
   },
   {
     "playerId": "1630311",
@@ -11093,13 +11018,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 3,
     "ppg": 7.2,
     "apg": 3.5,
     "rpg": 2.4,
     "playoffAppearances": 1,
     "mpg": 18.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1631116",
@@ -11119,13 +11044,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 28,
-    "careerYears": 4,
     "ppg": 3.7,
     "apg": 0.6,
     "rpg": 2.6,
     "playoffAppearances": 1,
     "mpg": 11.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1630172",
@@ -11143,13 +11068,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 4,
-    "careerYears": 6,
     "ppg": 7.0,
     "apg": 1.5,
     "rpg": 3.0,
     "playoffAppearances": 1,
     "mpg": 20.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "202331",
@@ -11168,7 +11093,6 @@
     "country": "USA",
     "draftYear": 2010,
     "draftPick": 10,
-    "careerYears": 16,
     "ppg": 17.3,
     "apg": 3.6,
     "rpg": 5.3,
@@ -11192,7 +11116,6 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 58,
-    "careerYears": 6,
     "ppg": 7.8,
     "apg": 1.2,
     "rpg": 4.5,
@@ -11216,7 +11139,6 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 26,
-    "careerYears": 6,
     "ppg": 17.0,
     "apg": 5.2,
     "rpg": 3.9,
@@ -11240,7 +11162,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 8.8,
     "apg": 0.0,
     "rpg": 2.5,
@@ -11264,7 +11185,6 @@
     "country": "Sweden",
     "draftYear": 2024,
     "draftPick": 44,
-    "careerYears": 2,
     "ppg": 11.4,
     "apg": 3.4,
     "rpg": 3.5,
@@ -11288,7 +11208,6 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 3,
     "ppg": 5.4,
     "apg": 1.0,
     "rpg": 2.7,
@@ -11312,7 +11231,6 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 30,
-    "careerYears": 4,
     "ppg": 14.6,
     "apg": 2.1,
     "rpg": 4.9,
@@ -11336,13 +11254,13 @@
     "country": "Nigeria",
     "draftYear": 2020,
     "draftPick": 20,
-    "careerYears": 6,
     "ppg": 10.1,
     "apg": 1.4,
     "rpg": 6.7,
     "playoffAppearances": 4,
     "mpg": 23.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1629656",
@@ -11360,13 +11278,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 25,
-    "careerYears": 5,
     "ppg": 13.4,
     "apg": 3.3,
     "rpg": 3.6,
     "playoffAppearances": 1,
     "mpg": 29.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1631245",
@@ -11384,13 +11302,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 9.1,
     "apg": 2.9,
     "rpg": 2.3,
     "playoffAppearances": 0,
     "mpg": 18.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1642366",
@@ -11408,13 +11326,13 @@
     "country": "Netherlands",
     "draftYear": 2024,
     "draftPick": 52,
-    "careerYears": 2,
     "ppg": 7.7,
     "apg": 1.4,
     "rpg": 4.0,
     "playoffAppearances": 1,
     "mpg": 17.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1629628",
@@ -11432,13 +11350,13 @@
     "country": "Canada",
     "draftYear": 2019,
     "draftPick": 3,
-    "careerYears": 7,
     "ppg": 19.3,
     "apg": 3.3,
     "rpg": 5.3,
     "playoffAppearances": 2,
     "mpg": 30.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1642853",
@@ -11456,13 +11374,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 31,
-    "careerYears": 1,
     "ppg": 4.3,
     "apg": 0.3,
     "rpg": 2.3,
     "playoffAppearances": 0,
     "mpg": 12.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1642484",
@@ -11480,13 +11398,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 4.4,
     "apg": 1.9,
     "rpg": 1.5,
     "playoffAppearances": 0,
     "mpg": 12.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1641712",
@@ -11504,13 +11422,13 @@
     "country": "France",
     "draftYear": 2023,
     "draftPick": 43,
-    "careerYears": 3,
     "ppg": 5.2,
     "apg": 1.1,
     "rpg": 2.9,
     "playoffAppearances": 0,
     "mpg": 16.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1642263",
@@ -11528,13 +11446,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 3,
-    "careerYears": 2,
     "ppg": 13.5,
     "apg": 3.4,
     "rpg": 2.9,
     "playoffAppearances": 1,
     "mpg": 26.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1642434",
@@ -11552,13 +11470,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 3.9,
     "apg": 0.6,
     "rpg": 0.7,
     "playoffAppearances": 0,
     "mpg": 6.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1642265",
@@ -11576,13 +11494,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 8,
-    "careerYears": 2,
     "ppg": 6.3,
     "apg": 2.2,
     "rpg": 2.0,
     "playoffAppearances": 1,
     "mpg": 14.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1629057",
@@ -11601,13 +11519,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 27,
-    "careerYears": 8,
     "ppg": 6.7,
     "apg": 1.0,
     "rpg": 7.0,
     "playoffAppearances": 5,
     "mpg": 17.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1642911",
@@ -11625,13 +11543,13 @@
     "country": "Australia",
     "draftYear": 2025,
     "draftPick": 45,
-    "careerYears": 1,
     "ppg": 2.8,
     "apg": 0.4,
     "rpg": 2.8,
     "playoffAppearances": 0,
     "mpg": 7.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 19
   },
   {
     "playerId": "1631199",
@@ -11651,13 +11569,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 4.2,
     "apg": 0.8,
     "rpg": 1.7,
     "playoffAppearances": 0,
     "mpg": 10.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1641842",
@@ -11676,13 +11594,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 5,
-    "careerYears": 2,
     "ppg": 8.2,
     "apg": 1.2,
     "rpg": 4.0,
     "playoffAppearances": 1,
     "mpg": 19.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1626220",
@@ -11701,13 +11619,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 9,
     "ppg": 9.8,
     "apg": 2.7,
     "rpg": 4.8,
     "playoffAppearances": 7,
     "mpg": 28.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 32
   },
   {
     "playerId": "203497",
@@ -11726,13 +11644,13 @@
     "country": "France",
     "draftYear": 2013,
     "draftPick": 27,
-    "careerYears": 13,
     "ppg": 10.9,
     "apg": 1.7,
     "rpg": 11.5,
     "playoffAppearances": 9,
     "mpg": 31.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 33
   },
   {
     "playerId": "1629060",
@@ -11750,13 +11668,13 @@
     "country": "Japan",
     "draftYear": 2019,
     "draftPick": 9,
-    "careerYears": 7,
     "ppg": 11.5,
     "apg": 0.8,
     "rpg": 3.3,
     "playoffAppearances": 4,
     "mpg": 28.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "201566",
@@ -11775,13 +11693,13 @@
     "country": "USA",
     "draftYear": 2008,
     "draftPick": 4,
-    "careerYears": 18,
     "ppg": 15.2,
     "apg": 6.7,
     "rpg": 5.4,
     "playoffAppearances": 14,
     "mpg": 28.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 37
   },
   {
     "playerId": "1642346",
@@ -11799,13 +11717,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 28,
-    "careerYears": 2,
     "ppg": 5.8,
     "apg": 1.5,
     "rpg": 4.2,
     "playoffAppearances": 0,
     "mpg": 19.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1641750",
@@ -11823,13 +11741,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 34,
-    "careerYears": 1,
     "ppg": 7.6,
     "apg": 0.8,
     "rpg": 5.5,
     "playoffAppearances": 0,
     "mpg": 21.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1642948",
@@ -11847,13 +11765,13 @@
     "country": "Canada",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 6.6,
     "apg": 5.3,
     "rpg": 2.2,
     "playoffAppearances": 0,
     "mpg": 19.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1631157",
@@ -11871,13 +11789,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 44,
-    "careerYears": 4,
     "ppg": 17.3,
     "apg": 5.6,
     "rpg": 4.6,
     "playoffAppearances": 1,
     "mpg": 32.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1630180",
@@ -11895,13 +11813,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 19,
-    "careerYears": 6,
     "ppg": 17.7,
     "apg": 2.5,
     "rpg": 5.6,
     "playoffAppearances": 1,
     "mpg": 31.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1630573",
@@ -11919,13 +11837,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 5,
     "ppg": 9.2,
     "apg": 1.5,
     "rpg": 3.8,
     "playoffAppearances": 4,
     "mpg": 24.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1630241",
@@ -11943,13 +11861,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 60,
-    "careerYears": 6,
     "ppg": 12.8,
     "apg": 2.4,
     "rpg": 2.6,
     "playoffAppearances": 3,
     "mpg": 26.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1630572",
@@ -11967,13 +11885,13 @@
     "country": "Georgia",
     "draftYear": 2021,
     "draftPick": 54,
-    "careerYears": 5,
     "ppg": 11.2,
     "apg": 1.9,
     "rpg": 4.9,
     "playoffAppearances": 0,
     "mpg": 21.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1630583",
@@ -11991,13 +11909,13 @@
     "country": "Spain",
     "draftYear": 2021,
     "draftPick": 30,
-    "careerYears": 5,
     "ppg": 14.0,
     "apg": 2.9,
     "rpg": 6.7,
     "playoffAppearances": 2,
     "mpg": 27.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1630703",
@@ -12015,13 +11933,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 3,
-    "careerYears": 3,
     "ppg": 14.2,
     "apg": 3.7,
     "rpg": 2.7,
     "playoffAppearances": 0,
     "mpg": 24.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1630567",
@@ -12039,13 +11957,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 4,
-    "careerYears": 5,
     "ppg": 18.1,
     "apg": 5.9,
     "rpg": 7.5,
     "playoffAppearances": 1,
     "mpg": 33.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1630590",
@@ -12065,13 +11983,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 11.4,
     "apg": 4.7,
     "rpg": 2.2,
     "playoffAppearances": 1,
     "mpg": 21.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1642951",
@@ -12089,13 +12007,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 1.9,
     "apg": 0.7,
     "rpg": 0.4,
     "playoffAppearances": 0,
     "mpg": 4.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "203552",
@@ -12113,13 +12031,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 13,
     "ppg": 7.1,
     "apg": 1.0,
     "rpg": 1.2,
     "playoffAppearances": 5,
     "mpg": 13.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 35
   },
   {
     "playerId": "1631101",
@@ -12137,13 +12055,13 @@
     "country": "Canada",
     "draftYear": 2022,
     "draftPick": 7,
-    "careerYears": 4,
     "ppg": 20.8,
     "apg": 2.6,
     "rpg": 4.3,
     "playoffAppearances": 0,
     "mpg": 29.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1628983",
@@ -12164,13 +12082,13 @@
     "country": "Canada",
     "draftYear": 2018,
     "draftPick": 11,
-    "careerYears": 8,
     "ppg": 31.1,
     "apg": 6.6,
     "rpg": 4.3,
     "playoffAppearances": 4,
     "mpg": 33.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1630536",
@@ -12188,13 +12106,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 48,
-    "careerYears": 5,
     "ppg": 8.1,
     "apg": 3.0,
     "rpg": 2.1,
     "playoffAppearances": 0,
     "mpg": 17.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1631321",
@@ -12212,13 +12130,13 @@
     "country": "France",
     "draftYear": 2023,
     "draftPick": 44,
-    "careerYears": 3,
     "ppg": 5.1,
     "apg": 1.5,
     "rpg": 2.2,
     "playoffAppearances": 0,
     "mpg": 19.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1631323",
@@ -12236,13 +12154,13 @@
     "country": "Italy",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 8.5,
     "apg": 1.4,
     "rpg": 3.0,
     "playoffAppearances": 0,
     "mpg": 16.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1642883",
@@ -12260,13 +12178,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 33,
-    "careerYears": 1,
     "ppg": 5.4,
     "apg": 2.0,
     "rpg": 3.5,
     "playoffAppearances": 0,
     "mpg": 22.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1627746",
@@ -12284,13 +12202,13 @@
     "country": "Haiti",
     "draftYear": 2016,
     "draftPick": 28,
-    "careerYears": 10,
     "ppg": 4.3,
     "apg": 1.0,
     "rpg": 3.0,
     "playoffAppearances": 1,
     "mpg": 12.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1642461",
@@ -12308,13 +12226,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 5.5,
     "apg": 0.8,
     "rpg": 3.3,
     "playoffAppearances": 0,
     "mpg": 22.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1630649",
@@ -12332,13 +12250,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 4,
     "ppg": 1.0,
     "apg": 0.5,
     "rpg": 0.0,
     "playoffAppearances": 0,
     "mpg": 3.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "201939",
@@ -12359,13 +12277,13 @@
     "country": "USA",
     "draftYear": 2009,
     "draftPick": 7,
-    "careerYears": 17,
     "ppg": 26.6,
     "apg": 4.7,
     "rpg": 3.6,
     "playoffAppearances": 10,
     "mpg": 30.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 38
   },
   {
     "playerId": "1642264",
@@ -12383,13 +12301,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 4,
-    "careerYears": 2,
     "ppg": 16.7,
     "apg": 7.4,
     "rpg": 5.3,
     "playoffAppearances": 0,
     "mpg": 30.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "203500",
@@ -12407,13 +12325,13 @@
     "country": "New Zealand",
     "draftYear": 2013,
     "draftPick": 12,
-    "careerYears": 13,
     "ppg": 5.8,
     "apg": 1.5,
     "rpg": 8.6,
     "playoffAppearances": 8,
     "mpg": 22.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 32
   },
   {
     "playerId": "1629004",
@@ -12431,13 +12349,13 @@
     "country": "Ukraine",
     "draftYear": 2018,
     "draftPick": 47,
-    "careerYears": 8,
     "ppg": 9.4,
     "apg": 1.9,
     "rpg": 2.5,
     "playoffAppearances": 2,
     "mpg": 23.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "204456",
@@ -12456,13 +12374,13 @@
     "country": "USA",
     "draftYear": 2015,
     "draftPick": null,
-    "careerYears": 11,
     "ppg": 9.4,
     "apg": 5.1,
     "rpg": 2.2,
     "playoffAppearances": 5,
     "mpg": 17.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 34
   },
   {
     "playerId": "1643007",
@@ -12480,13 +12398,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 54,
-    "careerYears": 1,
     "ppg": 4.5,
     "apg": 1.1,
     "rpg": 1.6,
     "playoffAppearances": 0,
     "mpg": 13.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "201959",
@@ -12504,13 +12422,13 @@
     "country": "USA",
     "draftYear": 2009,
     "draftPick": 26,
-    "careerYears": 17,
     "ppg": 3.4,
     "apg": 0.6,
     "rpg": 2.7,
     "playoffAppearances": 9,
     "mpg": 9.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 40
   },
   {
     "playerId": "1631106",
@@ -12528,13 +12446,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 17,
-    "careerYears": 4,
     "ppg": 10.5,
     "apg": 1.5,
     "rpg": 6.3,
     "playoffAppearances": 1,
     "mpg": 25.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1627752",
@@ -12552,13 +12470,13 @@
     "country": "USA",
     "draftYear": 2016,
     "draftPick": 12,
-    "careerYears": 10,
     "ppg": 9.2,
     "apg": 1.8,
     "rpg": 3.1,
     "playoffAppearances": 5,
     "mpg": 23.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 32
   },
   {
     "playerId": "1641707",
@@ -12576,13 +12494,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 9,
-    "careerYears": 3,
     "ppg": 7.4,
     "apg": 0.9,
     "rpg": 3.7,
     "playoffAppearances": 0,
     "mpg": 19.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1629611",
@@ -12600,13 +12518,13 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 48,
-    "careerYears": 7,
     "ppg": 7.2,
     "apg": 3.0,
     "rpg": 3.2,
     "playoffAppearances": 4,
     "mpg": 24.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1630545",
@@ -12626,13 +12544,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 27,
-    "careerYears": 2,
     "ppg": 5.6,
     "apg": 0.9,
     "rpg": 1.1,
     "playoffAppearances": 1,
     "mpg": 12.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "203648",
@@ -12650,13 +12568,13 @@
     "country": "Greece",
     "draftYear": 2014,
     "draftPick": 51,
-    "careerYears": 11,
     "ppg": 1.4,
     "apg": 0.4,
     "rpg": 0.9,
     "playoffAppearances": 4,
     "mpg": 4.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 33
   },
   {
     "playerId": "1628418",
@@ -12674,13 +12592,13 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 42,
-    "careerYears": 9,
     "ppg": 6.2,
     "apg": 0.6,
     "rpg": 3.4,
     "playoffAppearances": 3,
     "mpg": 12.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1642275",
@@ -12699,13 +12617,13 @@
     "country": "France",
     "draftYear": 2024,
     "draftPick": 6,
-    "careerYears": 2,
     "ppg": 6.0,
     "apg": 0.7,
     "rpg": 4.0,
     "playoffAppearances": 0,
     "mpg": 15.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "203501",
@@ -12725,13 +12643,13 @@
     "country": "USA",
     "draftYear": 2013,
     "draftPick": 24,
-    "careerYears": 13,
     "ppg": 13.5,
     "apg": 1.4,
     "rpg": 2.6,
     "playoffAppearances": 6,
     "mpg": 26.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 34
   },
   {
     "playerId": "202699",
@@ -12749,13 +12667,13 @@
     "country": "USA",
     "draftYear": 2011,
     "draftPick": 19,
-    "careerYears": 15,
     "ppg": 13.3,
     "apg": 2.5,
     "rpg": 5.1,
     "playoffAppearances": 8,
     "mpg": 27.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 33
   },
   {
     "playerId": "1643253",
@@ -12773,13 +12691,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 10.0,
     "apg": 1.0,
     "rpg": 3.5,
     "playoffAppearances": 0,
     "mpg": 36.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1642449",
@@ -12797,13 +12715,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 3.7,
     "apg": 0.9,
     "rpg": 3.3,
     "playoffAppearances": 0,
     "mpg": 9.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1628396",
@@ -12821,13 +12739,13 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 28,
-    "careerYears": 9,
     "ppg": 4.0,
     "apg": 0.5,
     "rpg": 2.8,
     "playoffAppearances": 4,
     "mpg": 11.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1641787",
@@ -12845,13 +12763,13 @@
     "country": "United Kingdom",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 3,
     "ppg": 0.0,
     "apg": 0.0,
     "rpg": 0.4,
     "playoffAppearances": 0,
     "mpg": 1.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1641739",
@@ -12869,13 +12787,13 @@
     "country": "Belgium",
     "draftYear": 2023,
     "draftPick": 52,
-    "careerYears": 3,
     "ppg": 13.4,
     "apg": 2.5,
     "rpg": 5.1,
     "playoffAppearances": 0,
     "mpg": 33.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1629027",
@@ -12895,13 +12813,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 5,
-    "careerYears": 8,
     "ppg": 17.9,
     "apg": 8.0,
     "rpg": 2.0,
     "playoffAppearances": 3,
     "mpg": 25.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1631218",
@@ -12920,13 +12838,13 @@
     "country": "USA",
     "draftYear": 2023,
     "draftPick": 57,
-    "careerYears": 3,
     "ppg": 3.4,
     "apg": 0.7,
     "rpg": 2.7,
     "playoffAppearances": 1,
     "mpg": 9.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1642848",
@@ -12944,13 +12862,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 6,
-    "careerYears": 1,
     "ppg": 12.2,
     "apg": 2.0,
     "rpg": 2.8,
     "playoffAppearances": 0,
     "mpg": 24.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1630200",
@@ -12968,13 +12886,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 41,
-    "careerYears": 6,
     "ppg": 14.1,
     "apg": 5.4,
     "rpg": 3.1,
     "playoffAppearances": 0,
     "mpg": 27.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1630544",
@@ -12992,13 +12910,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 18,
-    "careerYears": 5,
     "ppg": 5.5,
     "apg": 1.6,
     "rpg": 1.7,
     "playoffAppearances": 0,
     "mpg": 12.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1630570",
@@ -13016,13 +12934,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 5,
     "ppg": 6.5,
     "apg": 2.5,
     "rpg": 3.3,
     "playoffAppearances": 0,
     "mpg": 16.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1642280",
@@ -13040,13 +12958,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 2.0,
     "apg": 0.5,
     "rpg": 0.5,
     "playoffAppearances": 0,
     "mpg": 2.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1630286",
@@ -13064,13 +12982,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 5,
     "ppg": 8.0,
     "apg": 1.7,
     "rpg": 5.2,
     "playoffAppearances": 0,
     "mpg": 30.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1631211",
@@ -13088,13 +13006,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 42,
-    "careerYears": 4,
     "ppg": 1.0,
     "apg": 0.0,
     "rpg": 0.3,
     "playoffAppearances": 0,
     "mpg": 1.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1641725",
@@ -13112,13 +13030,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 5.2,
     "apg": 1.0,
     "rpg": 1.2,
     "playoffAppearances": 0,
     "mpg": 12.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1641998",
@@ -13137,13 +13055,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 3,
     "ppg": 1.0,
     "apg": 0.4,
     "rpg": 1.4,
     "playoffAppearances": 0,
     "mpg": 6.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1630530",
@@ -13162,13 +13080,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 17,
-    "careerYears": 5,
     "ppg": 21.5,
     "apg": 3.8,
     "rpg": 5.7,
     "playoffAppearances": 2,
     "mpg": 35.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1642400",
@@ -13186,13 +13104,13 @@
     "country": "Netherlands",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 4.1,
     "apg": 0.8,
     "rpg": 1.6,
     "playoffAppearances": 0,
     "mpg": 9.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1641774",
@@ -13210,13 +13128,13 @@
     "country": "Italy",
     "draftYear": 2023,
     "draftPick": 42,
-    "careerYears": 3,
     "ppg": 9.0,
     "apg": 1.1,
     "rpg": 3.0,
     "playoffAppearances": 0,
     "mpg": 13.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1641783",
@@ -13235,13 +13153,13 @@
     "country": "Germany",
     "draftYear": 2024,
     "draftPick": 18,
-    "careerYears": 2,
     "ppg": 9.9,
     "apg": 1.6,
     "rpg": 3.7,
     "playoffAppearances": 1,
     "mpg": 24.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1641803",
@@ -13259,13 +13177,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 49,
-    "careerYears": 2,
     "ppg": 12.0,
     "apg": 0.0,
     "rpg": 3.0,
     "playoffAppearances": 0,
     "mpg": 12.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1629660",
@@ -13283,13 +13201,13 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 24,
-    "careerYears": 7,
     "ppg": 19.7,
     "apg": 5.7,
     "rpg": 2.8,
     "playoffAppearances": 1,
     "mpg": 22.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1631102",
@@ -13309,13 +13227,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 29,
-    "careerYears": 4,
     "ppg": 1.3,
     "apg": 1.1,
     "rpg": 0.4,
     "playoffAppearances": 0,
     "mpg": 5.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1631174",
@@ -13333,13 +13251,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 10.8,
     "apg": 1.0,
     "rpg": 4.2,
     "playoffAppearances": 0,
     "mpg": 25.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1629639",
@@ -13357,13 +13275,13 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 13,
-    "careerYears": 7,
     "ppg": 20.5,
     "apg": 4.1,
     "rpg": 4.8,
     "playoffAppearances": 6,
     "mpg": 31.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1642278",
@@ -13381,13 +13299,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 34,
-    "careerYears": 2,
     "ppg": 4.4,
     "apg": 2.7,
     "rpg": 1.6,
     "playoffAppearances": 1,
     "mpg": 11.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1641890",
@@ -13405,13 +13323,13 @@
     "country": "USA",
     "draftYear": 2024,
     "draftPick": 33,
-    "careerYears": 2,
     "ppg": 4.7,
     "apg": 0.4,
     "rpg": 2.8,
     "playoffAppearances": 0,
     "mpg": 13.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1631213",
@@ -13429,13 +13347,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 51,
-    "careerYears": 4,
     "ppg": 6.3,
     "apg": 1.7,
     "rpg": 2.5,
     "playoffAppearances": 0,
     "mpg": 16.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1630178",
@@ -13454,13 +13372,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 21,
-    "careerYears": 6,
     "ppg": 28.3,
     "apg": 6.6,
     "rpg": 4.1,
     "playoffAppearances": 4,
     "mpg": 38.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1642878",
@@ -13478,13 +13396,13 @@
     "country": "Australia",
     "draftYear": 2025,
     "draftPick": 49,
-    "careerYears": 1,
     "ppg": 5.4,
     "apg": 1.5,
     "rpg": 1.3,
     "playoffAppearances": 0,
     "mpg": 10.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1630623",
@@ -13502,13 +13420,13 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 7.9,
     "apg": 1.7,
     "rpg": 1.1,
     "playoffAppearances": 0,
     "mpg": 15.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1626145",
@@ -13526,13 +13444,13 @@
     "country": "USA",
     "draftYear": 2015,
     "draftPick": 24,
-    "careerYears": 11,
     "ppg": 3.0,
     "apg": 2.4,
     "rpg": 1.1,
     "playoffAppearances": 4,
     "mpg": 14.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1642845",
@@ -13550,13 +13468,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 3,
-    "careerYears": 1,
     "ppg": 16.0,
     "apg": 4.2,
     "rpg": 5.6,
     "playoffAppearances": 0,
     "mpg": 35.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1641705",
@@ -13575,13 +13493,13 @@
     "country": "France",
     "draftYear": 2023,
     "draftPick": 1,
-    "careerYears": 3,
     "ppg": 25.0,
     "apg": 3.1,
     "rpg": 11.5,
     "playoffAppearances": 0,
     "mpg": 29.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1631246",
@@ -13601,13 +13519,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 47,
-    "careerYears": 4,
     "ppg": 7.5,
     "apg": 4.2,
     "rpg": 3.9,
     "playoffAppearances": 1,
     "mpg": 20.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1642884",
@@ -13625,13 +13543,13 @@
     "country": "Russia",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 1,
     "ppg": 0.8,
     "apg": 0.3,
     "rpg": 1.0,
     "playoffAppearances": 0,
     "mpg": 2.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1630249",
@@ -13650,13 +13568,13 @@
     "country": "Czech Republic",
     "draftYear": 2020,
     "draftPick": 37,
-    "careerYears": 5,
     "ppg": 8.5,
     "apg": 1.5,
     "rpg": 2.3,
     "playoffAppearances": 0,
     "mpg": 21.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1631117",
@@ -13674,13 +13592,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 22,
-    "careerYears": 4,
     "ppg": 14.4,
     "apg": 3.0,
     "rpg": 10.8,
     "playoffAppearances": 0,
     "mpg": 30.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1642383",
@@ -13700,13 +13618,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 18,
-    "careerYears": 1,
     "ppg": 7.8,
     "apg": 4.0,
     "rpg": 2.0,
     "playoffAppearances": 0,
     "mpg": 20.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1628976",
@@ -13726,13 +13644,13 @@
     "country": "USA",
     "draftYear": 2018,
     "draftPick": 7,
-    "careerYears": 8,
     "ppg": 11.8,
     "apg": 2.0,
     "rpg": 7.4,
     "playoffAppearances": 2,
     "mpg": 29.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1631111",
@@ -13752,13 +13670,13 @@
     "country": "USA",
     "draftYear": 2022,
     "draftPick": 26,
-    "careerYears": 4,
     "ppg": 1.7,
     "apg": 0.7,
     "rpg": 1.0,
     "playoffAppearances": 2,
     "mpg": 9.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1642954",
@@ -13776,13 +13694,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 56,
-    "careerYears": 1,
     "ppg": 6.4,
     "apg": 1.3,
     "rpg": 2.5,
     "playoffAppearances": 0,
     "mpg": 20.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1642860",
@@ -13800,13 +13718,13 @@
     "country": "USA",
     "draftYear": 2025,
     "draftPick": 21,
-    "careerYears": 1,
     "ppg": 10.3,
     "apg": 2.0,
     "rpg": 2.9,
     "playoffAppearances": 0,
     "mpg": 22.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1630214",
@@ -13824,13 +13742,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 35,
-    "careerYears": 6,
     "ppg": 1.5,
     "apg": 0.4,
     "rpg": 1.4,
     "playoffAppearances": 5,
     "mpg": 6.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1642905",
@@ -13848,13 +13766,13 @@
     "country": "China",
     "draftYear": 2025,
     "draftPick": 16,
-    "careerYears": 1,
     "ppg": 2.2,
     "apg": 0.5,
     "rpg": 1.5,
     "playoffAppearances": 0,
     "mpg": 7.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1642949",
@@ -13874,13 +13792,13 @@
     "country": "Switzerland",
     "draftYear": 2025,
     "draftPick": 30,
-    "careerYears": 1,
     "ppg": 4.3,
     "apg": 0.3,
     "rpg": 2.9,
     "playoffAppearances": 0,
     "mpg": 10.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1642530",
@@ -13898,13 +13816,13 @@
     "country": "Japan",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 3.4,
     "apg": 2.6,
     "rpg": 1.8,
     "playoffAppearances": 0,
     "mpg": 11.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1642274",
@@ -13922,13 +13840,13 @@
     "country": "Cameroon",
     "draftYear": 2024,
     "draftPick": 21,
-    "careerYears": 2,
     "ppg": 5.7,
     "apg": 1.3,
     "rpg": 5.8,
     "playoffAppearances": 0,
     "mpg": 19.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1642258",
@@ -13946,13 +13864,13 @@
     "country": "France",
     "draftYear": 2024,
     "draftPick": 1,
-    "careerYears": 2,
     "ppg": 9.6,
     "apg": 1.1,
     "rpg": 3.8,
     "playoffAppearances": 0,
     "mpg": 22.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1628380",
@@ -13970,13 +13888,13 @@
     "country": "USA",
     "draftYear": 2017,
     "draftPick": 10,
-    "careerYears": 9,
     "ppg": 9.7,
     "apg": 1.5,
     "rpg": 5.6,
     "playoffAppearances": 2,
     "mpg": 18.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1641744",
@@ -13994,13 +13912,13 @@
     "country": "Canada",
     "draftYear": 2024,
     "draftPick": 9,
-    "careerYears": 2,
     "ppg": 13.6,
     "apg": 1.1,
     "rpg": 11.1,
     "playoffAppearances": 1,
     "mpg": 25.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "203897",
@@ -14018,13 +13936,13 @@
     "country": "USA",
     "draftYear": 2014,
     "draftPick": 13,
-    "careerYears": 12,
     "ppg": 19.2,
     "apg": 2.3,
     "rpg": 2.8,
     "playoffAppearances": 1,
     "mpg": 31.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 31
   },
   {
     "playerId": "1630192",
@@ -14042,13 +13960,13 @@
     "country": "USA",
     "draftYear": 2020,
     "draftPick": 22,
-    "careerYears": 6,
     "ppg": 3.7,
     "apg": 0.6,
     "rpg": 2.6,
     "playoffAppearances": 5,
     "mpg": 12.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1630533",
@@ -14066,13 +13984,13 @@
     "country": "USA",
     "draftYear": 2021,
     "draftPick": 10,
-    "careerYears": 5,
     "ppg": 10.2,
     "apg": 1.1,
     "rpg": 2.4,
     "playoffAppearances": 2,
     "mpg": 22.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1629627",
@@ -14091,13 +14009,13 @@
     "country": "USA",
     "draftYear": 2019,
     "draftPick": 1,
-    "careerYears": 7,
     "ppg": 21.0,
     "apg": 3.2,
     "rpg": 5.7,
     "playoffAppearances": 0,
     "mpg": 29.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   },
   {
     "playerId": "1642389",
@@ -14115,12 +14033,12 @@
     "country": "USA",
     "draftYear": null,
     "draftPick": null,
-    "careerYears": 2,
     "ppg": 4.6,
     "apg": 1.8,
     "rpg": 0.6,
     "playoffAppearances": 0,
     "mpg": 8.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 25
   }
 ]

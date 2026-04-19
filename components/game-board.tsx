@@ -12,11 +12,11 @@ type FieldKey =
   | "team"
   | "jersey"
   | "position"
+  | "age"
   | "country"
   | "draftYear"
   | "draftPick"
   | "heightCm"
-  | "careerYears"
   | "ppg"
   | "playoffAppearances";
 
@@ -40,11 +40,11 @@ interface GuessFeedback {
   team: ValueFeedback;
   jersey: ValueFeedback;
   position: ValueFeedback;
+  age: ValueFeedback;
   country: ValueFeedback;
   draftYear: ValueFeedback;
   draftPick: ValueFeedback;
   heightCm: ValueFeedback;
-  careerYears: ValueFeedback;
   ppg: ValueFeedback;
   playoffAppearances: ValueFeedback;
 }
@@ -56,11 +56,11 @@ interface GuessedPlayer {
   team: string;
   jersey: string;
   position: string;
+  age: number | null;
   country: string;
   draftYear: number | null;
   draftPick: number | null;
   heightCm: number | null;
-  careerYears: number | null;
   ppg: number | null;
   playoffAppearances: number | null;
 }
@@ -89,13 +89,26 @@ const fieldLabels: Record<FieldKey, string> = {
   team: "队伍",
   jersey: "球衣号码",
   position: "司职位置",
+  age: "年龄",
   country: "国家",
   draftYear: "选秀年份",
   draftPick: "选秀顺位",
-  heightCm: "身高（cm）",
-  careerYears: "生涯长度（年）",
+  heightCm: "身高",
   ppg: "场均得分",
   playoffAppearances: "季后赛次数",
+};
+
+const fieldColClass: Record<FieldKey, string> = {
+  team: "w-[7%]",
+  jersey: "w-[8%]",
+  position: "w-[8%]",
+  age: "w-[7%]",
+  country: "w-[7%]",
+  draftYear: "w-[8%]",
+  draftPick: "w-[8%]",
+  heightCm: "w-[8%]",
+  ppg: "w-[7%]",
+  playoffAppearances: "w-[9%]",
 };
 
 const feedbackClass: Record<FeedbackStatus, string> = {
@@ -110,26 +123,26 @@ const fields: FieldKey[] = [
   "team",
   "jersey",
   "position",
+  "age",
   "country",
   "draftYear",
   "draftPick",
   "heightCm",
-  "careerYears",
   "ppg",
   "playoffAppearances",
 ];
 
-const numericFields = new Set<FieldKey>(["jersey", "draftYear", "draftPick", "heightCm", "careerYears", "ppg", "playoffAppearances"]);
+const numericFields = new Set<FieldKey>(["jersey", "age", "draftYear", "draftPick", "heightCm", "ppg", "playoffAppearances"]);
 
 const numericRule: Record<
-  "jersey" | "draftYear" | "draftPick" | "heightCm" | "careerYears" | "ppg" | "playoffAppearances",
+  "jersey" | "age" | "draftYear" | "draftPick" | "heightCm" | "ppg" | "playoffAppearances",
   { near: number; close: number; step: number; decimals: number }
 > = {
   jersey: { near: 1, close: 3, step: 1, decimals: 0 },
+  age: { near: 1, close: 3, step: 1, decimals: 0 },
   draftYear: { near: 1, close: 3, step: 1, decimals: 0 },
   draftPick: { near: 3, close: 10, step: 1, decimals: 0 },
   heightCm: { near: 2, close: 6, step: 1, decimals: 0 },
-  careerYears: { near: 1, close: 3, step: 1, decimals: 0 },
   ppg: { near: 1.5, close: 4, step: 0.1, decimals: 1 },
   playoffAppearances: { near: 1, close: 3, step: 1, decimals: 0 },
 };
@@ -166,7 +179,7 @@ function parseJersey(value: string): number | null {
 
 function inferNumericRange(
   rows: GuessHistory[],
-  key: "jersey" | "draftYear" | "draftPick" | "heightCm" | "careerYears" | "ppg" | "playoffAppearances",
+  key: "jersey" | "age" | "draftYear" | "draftPick" | "heightCm" | "ppg" | "playoffAppearances",
 ): string {
   const rule = numericRule[key];
   let lower = Number.NEGATIVE_INFINITY;
@@ -219,10 +232,10 @@ function inferNumericRange(
 function inferPinnedValue(rows: GuessHistory[], key: FieldKey): string {
   if (rows.length === 0) return "?";
 
-  if (["jersey", "draftYear", "draftPick", "heightCm", "careerYears", "ppg", "playoffAppearances"].includes(key)) {
+  if (["jersey", "age", "draftYear", "draftPick", "heightCm", "ppg", "playoffAppearances"].includes(key)) {
     return inferNumericRange(
       rows,
-      key as "jersey" | "draftYear" | "draftPick" | "heightCm" | "careerYears" | "ppg" | "playoffAppearances",
+      key as "jersey" | "age" | "draftYear" | "draftPick" | "heightCm" | "ppg" | "playoffAppearances",
     );
   }
 
@@ -266,11 +279,11 @@ export function GameBoard() {
       team: "?",
       jersey: "?",
       position: "?",
+      age: "?",
       country: "?",
       draftYear: "?",
       draftPick: "?",
       heightCm: "?",
-      careerYears: "?",
       ppg: "?",
       playoffAppearances: "?",
     };
@@ -497,13 +510,13 @@ export function GameBoard() {
         </section>
 
         <section className="overflow-hidden rounded-3xl border border-white/10 bg-black/20">
-          <div className="overflow-x-auto">
-            <table className="w-full min-w-[1040px] text-sm">
+          <div className="overflow-x-hidden">
+            <table className="w-full table-fixed text-xs md:text-sm">
               <thead className="bg-white/5 text-zinc-300">
                 <tr>
-                  <th className="px-3 py-3 text-left">猜测球员</th>
+                  <th className="px-2 py-3 text-center">猜测球员</th>
                   {fields.map((field) => (
-                    <th key={field} className="px-2 py-3 text-left">
+                    <th key={field} className={cn("px-1 py-3 text-center", fieldColClass[field])}>
                       {fieldLabels[field]}
                     </th>
                   ))}
@@ -522,12 +535,14 @@ export function GameBoard() {
                     .reverse()
                     .map((entry) => (
                       <tr key={entry.player.playerId + entry.player.enName} className="border-t border-white/10">
-                        <td className="px-3 py-3 font-medium">
-                          {entry.player.enName}
-                          <span className="ml-1 text-zinc-300">({entry.player.zhName})</span>
+                        <td className="px-2 py-3 font-medium">
+                          <span className="block truncate" title={`${entry.player.enName} (${entry.player.zhName})`}>
+                            {entry.player.enName}
+                            <span className="ml-1 text-zinc-300">({entry.player.zhName})</span>
+                          </span>
                         </td>
                         {fields.map((field) => (
-                          <td key={field} className="px-2 py-3">
+                          <td key={field} className="px-1 py-3 text-center">
                             <FeedbackPill feedback={entry.feedback[field]} numeric={numericFields.has(field)} />
                           </td>
                         ))}
@@ -572,11 +587,12 @@ function RuleHelpButton() {
       </button>
       <div className="pointer-events-none invisible absolute right-0 top-11 z-40 w-[360px] rounded-2xl border border-white/15 bg-slate-950/95 p-4 text-xs leading-5 text-zinc-200 opacity-0 shadow-2xl transition duration-150 group-hover:visible group-hover:opacity-100 md:w-[460px]">
         <p className="mb-2 text-sm font-semibold text-white">符号含义</p>
-        <p>1. 可量化字段（号码、选秀年/顺位、身高、生涯长度、得分、季后赛次数）：`↑` 目标更大，`↓` 目标更小，`✓` 完全命中。</p>
-        <p>2. 不可量化字段（队伍、国家、位置）：`✓` 命中，`✕` 不匹配，`≈` 接近（主要用于位置大类接近）。</p>
+        <p>1. 可量化字段（号码、年龄、选秀年/顺位、身高、得分、季后赛次数）：`↑` 目标更大，`↓` 目标更小，`✓` 完全命中。</p>
+        <p>2. 不可量化字段（队伍、国家、位置）：`✓` 命中，`✕` 不匹配，`≈` 接近（队伍同分区、国家同大洲、位置同大类）。</p>
         <p>3. 颜色：绿色 = 命中，亮绿 = 非常接近，蓝色 = 接近，红色 = 差距大，灰色 = 数据未知。</p>
-        <p>4. 位置接近规则：后卫组（PG/SG）、锋线组（SF）、内线组（PF/C），同组记为接近。</p>
-        <p>5. 数值接近阈值：号码 ±1/±3，身高 ±2/±6，生涯长度 ±1/±3，得分 ±1.5/±4，季后赛次数 ±1/±3，选秀年份 ±1/±3，选秀顺位 ±3/±10（前者非常接近，后者接近）。</p>
+        <p>4. 接近规则：位置同大类（后卫组 PG/SG、锋线组 SF、内线组 PF/C）；队伍同分区（六大分区：西北、太平洋、西南、大西洋、中部、东南）；国家同大洲。</p>
+        <p>5. 六大分区示例：西北（DEN/MIN/OKC/POR/UTA），太平洋（GSW/LAC/LAL/PHX/SAC），西南（DAL/HOU/MEM/NOP/SAS），大西洋（BOS/BKN/NYK/PHI/TOR），中部（CHI/CLE/DET/IND/MIL），东南（ATL/CHA/MIA/ORL/WAS）。</p>
+        <p>6. 数值接近阈值：号码 ±1/±3，年龄 ±1/±3，身高 ±2/±6，得分 ±1.5/±4，季后赛次数 ±1/±3，选秀年份 ±1/±3，选秀顺位 ±3/±10（前者非常接近，后者接近）。</p>
       </div>
     </div>
   );

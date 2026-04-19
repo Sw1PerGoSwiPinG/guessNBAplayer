@@ -26,5 +26,20 @@ describe("game engine", () => {
     const feedback = buildGuessFeedback("1630162", "1630224");
     expect(["exact", "close", "far"]).toContain(feedback.position.status);
   });
+
+  it("marks team close when in same NBA division", () => {
+    const feedback = buildGuessFeedback("201939", "2544");
+    expect(feedback.team.status).toBe("close");
+  });
+
+  it("marks team far when in different NBA divisions", () => {
+    const feedback = buildGuessFeedback("201939", "203999");
+    expect(feedback.team.status).toBe("far");
+  });
+
+  it("marks country close when in same continent", () => {
+    const feedback = buildGuessFeedback("203999", "1629029");
+    expect(feedback.country.status).toBe("close");
+  });
 });
 

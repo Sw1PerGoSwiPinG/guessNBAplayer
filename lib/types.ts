@@ -10,11 +10,11 @@ export interface Player {
   team: string;
   jersey: string;
   position: string;
+  age: number | null;
   heightCm: number | null;
   country: string;
   draftYear: number | null;
   draftPick: number | null;
-  careerYears: number | null;
   ppg: number | null;
   apg: number | null;
   rpg: number | null;
@@ -43,8 +43,8 @@ export interface GuessFeedback {
   country: ValueFeedback;
   draftYear: ValueFeedback;
   draftPick: ValueFeedback;
+  age: ValueFeedback;
   heightCm: ValueFeedback;
-  careerYears: ValueFeedback;
   ppg: ValueFeedback;
   playoffAppearances: ValueFeedback;
 }

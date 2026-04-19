@@ -189,11 +189,6 @@ def build_dataset() -> list[dict[str, Any]]:
         profile = index_map.get(pid, {})
         en_name = stat["enName"]
         zh_name = CN_OVERRIDE_BY_NORM.get(normalize_en_name(en_name), {}).get("zhName", en_name)
-        from_year = profile.get("fromYear")
-        career_years = None
-        if from_year is not None:
-            career_years = max(SEASON_START_YEAR - int(from_year) + 1, 1)
-
         team = stat.get("team") or profile.get("team") or "UNK"
 
         players.append(
@@ -209,7 +204,7 @@ def build_dataset() -> list[dict[str, Any]]:
                 "country": profile.get("country") or "Unknown",
                 "draftYear": profile.get("draftYear"),
                 "draftPick": profile.get("draftPick"),
-                "careerYears": career_years,
+                "age": None,
                 "ppg": stat.get("ppg"),
                 "apg": stat.get("apg"),
                 "rpg": stat.get("rpg"),
