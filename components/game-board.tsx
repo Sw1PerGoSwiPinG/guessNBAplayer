@@ -279,7 +279,7 @@ function inferNumericRange(
         if (jerseyExact) return jerseyExact;
       }
       const exactValue = row.player[key];
-      if (exactValue !== null) return formatValue(exactValue, rule.decimals);
+      if (exactValue !== null) return formatValue(Number(exactValue), rule.decimals);
       continue;
     }
 
