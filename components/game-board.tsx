@@ -98,6 +98,90 @@ const fieldLabels: Record<FieldKey, string> = {
   playoffAppearances: "季后赛次数",
 };
 
+const teamDivisionLabelByAbbr: Record<string, string> = {
+  DEN: "西北赛区",
+  MIN: "西北赛区",
+  OKC: "西北赛区",
+  POR: "西北赛区",
+  UTA: "西北赛区",
+  GSW: "太平洋赛区",
+  LAC: "太平洋赛区",
+  LAL: "太平洋赛区",
+  PHX: "太平洋赛区",
+  SAC: "太平洋赛区",
+  DAL: "西南赛区",
+  HOU: "西南赛区",
+  MEM: "西南赛区",
+  NOP: "西南赛区",
+  SAS: "西南赛区",
+  BOS: "大西洋赛区",
+  BKN: "大西洋赛区",
+  NYK: "大西洋赛区",
+  PHI: "大西洋赛区",
+  TOR: "大西洋赛区",
+  CHI: "中部赛区",
+  CLE: "中部赛区",
+  DET: "中部赛区",
+  IND: "中部赛区",
+  MIL: "中部赛区",
+  ATL: "东南赛区",
+  CHA: "东南赛区",
+  MIA: "东南赛区",
+  ORL: "东南赛区",
+  WAS: "东南赛区",
+};
+
+const continentLabelByCountry: Record<string, string> = {
+  Australia: "大洋洲",
+  Austria: "欧洲",
+  Bahamas: "北美洲",
+  Belgium: "欧洲",
+  "Bosnia and Herzegovina": "欧洲",
+  Brazil: "南美洲",
+  Cameroon: "非洲",
+  Canada: "北美洲",
+  China: "亚洲",
+  Croatia: "欧洲",
+  "Czech Republic": "欧洲",
+  DRC: "非洲",
+  "Dominican Republic": "北美洲",
+  Finland: "欧洲",
+  France: "欧洲",
+  Georgia: "欧洲",
+  Germany: "欧洲",
+  Greece: "欧洲",
+  Guinea: "非洲",
+  Haiti: "北美洲",
+  Israel: "亚洲",
+  Italy: "欧洲",
+  Jamaica: "北美洲",
+  Japan: "亚洲",
+  Latvia: "欧洲",
+  Lithuania: "欧洲",
+  Mali: "非洲",
+  Montenegro: "欧洲",
+  Netherlands: "欧洲",
+  "New Zealand": "大洋洲",
+  Nicaragua: "北美洲",
+  Nigeria: "非洲",
+  Poland: "欧洲",
+  Portugal: "欧洲",
+  "Puerto Rico": "北美洲",
+  Russia: "欧洲",
+  "Saint Lucia": "北美洲",
+  Senegal: "非洲",
+  Serbia: "欧洲",
+  Slovenia: "欧洲",
+  "South Sudan": "非洲",
+  Spain: "欧洲",
+  Sweden: "欧洲",
+  Switzerland: "欧洲",
+  Turkey: "亚洲",
+  USA: "北美洲",
+  Ukraine: "欧洲",
+  "United Kingdom": "欧洲",
+};
+
 const fieldColClass: Record<FieldKey, string> = {
   team: "w-[7%]",
   jersey: "w-[8%]",
@@ -136,15 +220,15 @@ const numericFields = new Set<FieldKey>(["jersey", "age", "draftYear", "draftPic
 
 const numericRule: Record<
   "jersey" | "age" | "draftYear" | "draftPick" | "heightCm" | "ppg" | "playoffAppearances",
-  { near: number; close: number; step: number; decimals: number }
+  { decimals: number }
 > = {
-  jersey: { near: 1, close: 3, step: 1, decimals: 0 },
-  age: { near: 1, close: 3, step: 1, decimals: 0 },
-  draftYear: { near: 1, close: 3, step: 1, decimals: 0 },
-  draftPick: { near: 3, close: 10, step: 1, decimals: 0 },
-  heightCm: { near: 2, close: 6, step: 1, decimals: 0 },
-  ppg: { near: 1.5, close: 4, step: 0.1, decimals: 1 },
-  playoffAppearances: { near: 1, close: 3, step: 1, decimals: 0 },
+  jersey: { decimals: 0 },
+  age: { decimals: 0 },
+  draftYear: { decimals: 0 },
+  draftPick: { decimals: 0 },
+  heightCm: { decimals: 0 },
+  ppg: { decimals: 1 },
+  playoffAppearances: { decimals: 0 },
 };
 
 function emptyStats(): Record<Difficulty, { wins: number; games: number; streak: number }> {
@@ -182,50 +266,44 @@ function inferNumericRange(
   key: "jersey" | "age" | "draftYear" | "draftPick" | "heightCm" | "ppg" | "playoffAppearances",
 ): string {
   const rule = numericRule[key];
-  let lower = Number.NEGATIVE_INFINITY;
-  let upper = Number.POSITIVE_INFINITY;
-  let hasConstraint = false;
+  let lower: number | null = null;
+  let upper: number | null = null;
 
   for (const row of rows) {
     const feedback = row.feedback[key as FieldKey];
+    if (feedback.status === "unknown") continue;
+
+    if (feedback.status === "exact") {
+      if (key === "jersey") {
+        const jerseyExact = row.player.jersey?.trim();
+        if (jerseyExact) return jerseyExact;
+      }
+      const exactValue = row.player[key];
+      if (exactValue !== null) return formatValue(exactValue, rule.decimals);
+      continue;
+    }
+
     const guessedValue = key === "jersey" ? parseJersey(row.player.jersey) : row.player[key];
 
-    if (guessedValue === null || feedback.status === "unknown") continue;
-    if (feedback.status === "exact") {
-      return formatValue(guessedValue, rule.decimals);
-    }
-    if (!feedback.direction) continue;
+    if (guessedValue === null || !feedback.direction) continue;
 
-    hasConstraint = true;
     if (feedback.direction === "up") {
-      if (feedback.status === "far") {
-        lower = Math.max(lower, guessedValue + rule.close + rule.step);
-      } else {
-        lower = Math.max(lower, guessedValue + rule.step);
-        if (feedback.status === "near") upper = Math.min(upper, guessedValue + rule.near);
-        if (feedback.status === "close") upper = Math.min(upper, guessedValue + rule.close);
-      }
+      lower = lower === null ? guessedValue : Math.max(lower, guessedValue);
     }
 
     if (feedback.direction === "down") {
-      if (feedback.status === "far") {
-        upper = Math.min(upper, guessedValue - rule.close - rule.step);
-      } else {
-        upper = Math.min(upper, guessedValue - rule.step);
-        if (feedback.status === "near") lower = Math.max(lower, guessedValue - rule.near);
-        if (feedback.status === "close") lower = Math.max(lower, guessedValue - rule.close);
-      }
+      upper = upper === null ? guessedValue : Math.min(upper, guessedValue);
     }
   }
 
-  if (!hasConstraint) return "?";
-  if (lower > upper) return "范围收敛中";
-
-  if (Number.isFinite(lower) && Number.isFinite(upper)) {
-    return `${formatValue(lower, rule.decimals)} ~ ${formatValue(upper, rule.decimals)}`;
+  if (lower !== null && upper !== null) {
+    if (lower < upper) return `${formatValue(lower, rule.decimals)} < ~ < ${formatValue(upper, rule.decimals)}`;
+    if (lower === upper) return formatValue(lower, rule.decimals);
+    return "范围冲突";
   }
-  if (Number.isFinite(lower)) return `>= ${formatValue(lower, rule.decimals)}`;
-  if (Number.isFinite(upper)) return `<= ${formatValue(upper, rule.decimals)}`;
+
+  if (lower !== null) return `> ${formatValue(lower, rule.decimals)}`;
+  if (upper !== null) return `< ${formatValue(upper, rule.decimals)}`;
   return "?";
 }
 
@@ -247,6 +325,25 @@ function inferPinnedValue(rows: GuessHistory[], key: FieldKey): string {
       return String(value);
     }
   }
+
+  if (key === "team") {
+    for (const row of rows) {
+      if (row.feedback.team.status === "close") {
+        const division = teamDivisionLabelByAbbr[row.player.team];
+        if (division) return division;
+      }
+    }
+  }
+
+  if (key === "country") {
+    for (const row of rows) {
+      if (row.feedback.country.status === "close") {
+        const continent = continentLabelByCountry[row.player.country];
+        if (continent) return continent;
+      }
+    }
+  }
+
   return "?";
 }
 
@@ -263,7 +360,7 @@ export function GameBoard() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const [targetReveal, setTargetReveal] = useState<{ enName: string; zhName: string } | null>(null);
-  const [stats, setStats] = useState<Record<Difficulty, { wins: number; games: number; streak: number }>>(readStats());
+  const [stats, setStats] = useState<Record<Difficulty, { wins: number; games: number; streak: number }>>(emptyStats());
 
   const currentStats = stats[difficulty];
   const winRate = currentStats.games > 0 ? Math.round((currentStats.wins / currentStats.games) * 100) : 0;
@@ -323,6 +420,10 @@ export function GameBoard() {
   useEffect(() => {
     void createGame("normal");
   }, [createGame]);
+
+  useEffect(() => {
+    setStats(readStats());
+  }, []);
 
   useEffect(() => {
     if (searchInput.trim().length < 1 || status !== "ongoing") {
@@ -593,6 +694,8 @@ function RuleHelpButton() {
         <p>4. 接近规则：位置同大类（后卫组 PG/SG、锋线组 SF、内线组 PF/C）；队伍同分区（六大分区：西北、太平洋、西南、大西洋、中部、东南）；国家同大洲。</p>
         <p>5. 六大分区示例：西北（DEN/MIN/OKC/POR/UTA），太平洋（GSW/LAC/LAL/PHX/SAC），西南（DAL/HOU/MEM/NOP/SAS），大西洋（BOS/BKN/NYK/PHI/TOR），中部（CHI/CLE/DET/IND/MIL），东南（ATL/CHA/MIA/ORL/WAS）。</p>
         <p>6. 数值接近阈值：号码 ±1/±3，年龄 ±1/±3，身高 ±2/±6，得分 ±1.5/±4，季后赛次数 ±1/±3，选秀年份 ±1/±3，选秀顺位 ±3/±10（前者非常接近，后者接近）。</p>
+        <p>7. 线索汇总格式：单边约束显示 `&gt; x` 或 `&lt; x`；双边约束显示 `a &lt; ~ &lt; b`；命中则直接显示真实值。</p>
+        <p>8. 队伍/国家优化：若显示 `≈`，线索汇总会展示范围信息（队伍显示赛区名，国家显示大洲名）。</p>
       </div>
     </div>
   );

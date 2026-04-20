@@ -44,7 +44,8 @@
     "rpg": 2.7,
     "playoffAppearances": 2,
     "mpg": 29.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1642358",
@@ -90,7 +91,8 @@
     "rpg": 5.8,
     "playoffAppearances": 6,
     "mpg": 27.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1628988",
@@ -715,7 +717,8 @@
     "rpg": 3.8,
     "playoffAppearances": 2,
     "mpg": 29.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "203076",
@@ -741,7 +744,8 @@
     "rpg": 11.1,
     "playoffAppearances": 6,
     "mpg": 31.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 33
   },
   {
     "playerId": "1630162",
@@ -765,7 +769,8 @@
     "rpg": 5.0,
     "playoffAppearances": 4,
     "mpg": 35.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1630264",
@@ -788,7 +793,8 @@
     "rpg": 2.9,
     "playoffAppearances": 1,
     "mpg": 17.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 31
   },
   {
     "playerId": "1641810",
@@ -2038,7 +2044,8 @@
     "rpg": 5.9,
     "playoffAppearances": 0,
     "mpg": 25.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1643052",
@@ -2061,7 +2068,8 @@
     "rpg": 4.6,
     "playoffAppearances": 0,
     "mpg": 20.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1629646",
@@ -2131,7 +2139,8 @@
     "rpg": 8.9,
     "playoffAppearances": 2,
     "mpg": 28.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1628449",
@@ -2611,7 +2620,8 @@
     "rpg": 2.3,
     "playoffAppearances": 0,
     "mpg": 18.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1642504",
@@ -2634,7 +2644,8 @@
     "rpg": 2.5,
     "playoffAppearances": 0,
     "mpg": 24.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1641854",
@@ -2659,7 +2670,8 @@
     "rpg": 3.4,
     "playoffAppearances": 1,
     "mpg": 17.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1642938",
@@ -2706,12 +2718,13 @@
     "rpg": 2.3,
     "playoffAppearances": 4,
     "mpg": 19.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1629610",
     "enName": "DaQuan Jeffries",
-    "zhName": "大全杰弗里斯",
+    "zhName": "大全·杰弗里斯",
     "aliases": [
       "daquan",
       "daquan jeffries",
@@ -2729,7 +2742,8 @@
     "rpg": 1.7,
     "playoffAppearances": 2,
     "mpg": 20.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1641747",
@@ -2776,7 +2790,8 @@
     "rpg": 3.0,
     "playoffAppearances": 0,
     "mpg": 26.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1630625",
@@ -2868,7 +2883,8 @@
     "rpg": 6.9,
     "playoffAppearances": 2,
     "mpg": 21.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1642450",
@@ -3404,7 +3420,8 @@
     "rpg": 5.3,
     "playoffAppearances": 1,
     "mpg": 16.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1642852",
@@ -3427,7 +3444,8 @@
     "rpg": 7.1,
     "playoffAppearances": 0,
     "mpg": 25.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1627884",
@@ -3452,7 +3470,8 @@
     "rpg": 3.5,
     "playoffAppearances": 5,
     "mpg": 27.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1628401",
@@ -3475,7 +3494,8 @@
     "rpg": 4.4,
     "playoffAppearances": 6,
     "mpg": 34.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 31
   },
   {
     "playerId": "1630217",
@@ -3498,7 +3518,8 @@
     "rpg": 4.1,
     "playoffAppearances": 4,
     "mpg": 33.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1626164",
@@ -3522,7 +3543,8 @@
     "rpg": 3.9,
     "playoffAppearances": 4,
     "mpg": 33.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1642269",
@@ -3932,7 +3954,8 @@
     "rpg": 2.5,
     "playoffAppearances": 0,
     "mpg": 16.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1629130",
@@ -3955,7 +3978,8 @@
     "rpg": 2.7,
     "playoffAppearances": 6,
     "mpg": 27.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 31
   },
   {
     "playerId": "1641871",
@@ -4024,7 +4048,8 @@
     "rpg": 7.5,
     "playoffAppearances": 0,
     "mpg": 20.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1642844",
@@ -4727,7 +4752,8 @@
     "rpg": 0.0,
     "playoffAppearances": 0,
     "mpg": 24.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1629312",
@@ -4773,7 +4799,8 @@
     "rpg": 3.4,
     "playoffAppearances": 2,
     "mpg": 28.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1642864",
@@ -5129,7 +5156,8 @@
     "rpg": 5.0,
     "playoffAppearances": 1,
     "mpg": 22.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1627826",
@@ -5152,7 +5180,8 @@
     "rpg": 10.6,
     "playoffAppearances": 6,
     "mpg": 30.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1631120",
@@ -5199,7 +5228,8 @@
     "rpg": 3.3,
     "playoffAppearances": 4,
     "mpg": 28.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1642266",
@@ -5223,7 +5253,8 @@
     "rpg": 2.6,
     "playoffAppearances": 0,
     "mpg": 20.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 20
   },
   {
     "playerId": "1631095",
@@ -5515,7 +5546,8 @@
     "rpg": 4.0,
     "playoffAppearances": 0,
     "mpg": 25.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1627751",
@@ -5538,7 +5570,8 @@
     "rpg": 7.0,
     "playoffAppearances": 3,
     "mpg": 25.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1628973",
@@ -5562,7 +5595,8 @@
     "rpg": 3.3,
     "playoffAppearances": 5,
     "mpg": 35.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1631105",
@@ -5585,7 +5619,8 @@
     "rpg": 10.5,
     "playoffAppearances": 1,
     "mpg": 28.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1630224",
@@ -5609,7 +5644,8 @@
     "rpg": 3.6,
     "playoffAppearances": 1,
     "mpg": 25.9,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1630552",
@@ -5632,7 +5668,8 @@
     "rpg": 10.3,
     "playoffAppearances": 2,
     "mpg": 35.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1629618",
@@ -5655,7 +5692,8 @@
     "rpg": 2.3,
     "playoffAppearances": 2,
     "mpg": 16.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1641771",
@@ -8979,7 +9017,8 @@
     "rpg": 7.7,
     "playoffAppearances": 5,
     "mpg": 35.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1630568",
@@ -9002,7 +9041,8 @@
     "rpg": 4.1,
     "playoffAppearances": 2,
     "mpg": 16.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 27
   },
   {
     "playerId": "1628379",
@@ -9025,7 +9065,8 @@
     "rpg": 2.3,
     "playoffAppearances": 4,
     "mpg": 21.5,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 29
   },
   {
     "playerId": "1628436",
@@ -9048,7 +9089,8 @@
     "rpg": 6.1,
     "playoffAppearances": 5,
     "mpg": 21.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 30
   },
   {
     "playerId": "1631247",
@@ -10409,7 +10451,7 @@
   {
     "playerId": "202696",
     "enName": "Nikola Vučević",
-    "zhName": "NikolaVučević",
+    "zhName": "尼古拉·武切维奇",
     "aliases": [
       "nikola",
       "nikola vuevi",
@@ -10434,7 +10476,7 @@
   {
     "playerId": "1642363",
     "enName": "Nique Clifford",
-    "zhName": "尼克克利福德",
+    "zhName": "尼克·克利福德",
     "aliases": [
       "clifford",
       "nique",
@@ -10452,7 +10494,8 @@
     "rpg": 3.8,
     "playoffAppearances": 0,
     "mpg": 25.1,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1642855",
@@ -10498,7 +10541,8 @@
     "rpg": 4.1,
     "playoffAppearances": 0,
     "mpg": 27.0,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 22
   },
   {
     "playerId": "1642869",
@@ -10544,7 +10588,8 @@
     "rpg": 1.8,
     "playoffAppearances": 0,
     "mpg": 22.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 21
   },
   {
     "playerId": "1641807",
@@ -10590,7 +10635,8 @@
     "rpg": 3.5,
     "playoffAppearances": 9,
     "mpg": 29.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 32
   },
   {
     "playerId": "1628384",
@@ -10613,7 +10659,8 @@
     "rpg": 5.2,
     "playoffAppearances": 5,
     "mpg": 33.2,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1630167",
@@ -10636,7 +10683,8 @@
     "rpg": 4.4,
     "playoffAppearances": 4,
     "mpg": 17.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1630534",
@@ -11098,7 +11146,8 @@
     "rpg": 5.3,
     "playoffAppearances": 11,
     "mpg": 30.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 35
   },
   {
     "playerId": "1630194",
@@ -11144,7 +11193,8 @@
     "rpg": 3.9,
     "playoffAppearances": 5,
     "mpg": 32.3,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 28
   },
   {
     "playerId": "1642362",
@@ -11167,7 +11217,8 @@
     "rpg": 2.5,
     "playoffAppearances": 0,
     "mpg": 15.8,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1641796",
@@ -11190,7 +11241,8 @@
     "rpg": 3.5,
     "playoffAppearances": 1,
     "mpg": 26.4,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 24
   },
   {
     "playerId": "1631250",
@@ -11213,7 +11265,8 @@
     "rpg": 2.7,
     "playoffAppearances": 0,
     "mpg": 15.7,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 26
   },
   {
     "playerId": "1631212",
@@ -11236,7 +11289,8 @@
     "rpg": 4.9,
     "playoffAppearances": 3,
     "mpg": 29.6,
-    "activeInSeason": "2025-26"
+    "activeInSeason": "2025-26",
+    "age": 23
   },
   {
     "playerId": "1630173",
