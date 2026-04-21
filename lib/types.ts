@@ -20,6 +20,7 @@ export interface Player {
   rpg: number | null;
   playoffAppearances: number | null;
   mpg: number | null;
+  gamesPlayed: number | null;
   activeInSeason: string;
 }
 

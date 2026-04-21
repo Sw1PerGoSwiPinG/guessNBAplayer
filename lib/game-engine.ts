@@ -5,6 +5,7 @@ const EXACT: ValueFeedback = { status: "exact" };
 const UNKNOWN: ValueFeedback = { status: "unknown" };
 
 const THRESHOLDS = {
+  // near means very close, close means close.
   jersey: { near: 1, close: 3 },
   age: { near: 1, close: 3 },
   heightCm: { near: 2, close: 6 },
@@ -14,6 +15,7 @@ const THRESHOLDS = {
   draftYear: { near: 1, close: 3 },
 };
 
+// Used by team proximity check: same division => close.
 const TEAM_DIVISION: Record<string, "northwest" | "pacific" | "southwest" | "atlantic" | "central" | "southeast"> = {
   // Northwest
   DEN: "northwest",
@@ -53,6 +55,7 @@ const TEAM_DIVISION: Record<string, "northwest" | "pacific" | "southwest" | "atl
   WAS: "southeast",
 };
 
+// Used by country proximity check: same continent => close.
 const COUNTRY_CONTINENT: Record<string, "africa" | "asia" | "europe" | "north_america" | "south_america" | "oceania"> = {
   Australia: "oceania",
   Austria: "europe",
@@ -104,6 +107,7 @@ const COUNTRY_CONTINENT: Record<string, "africa" | "asia" | "europe" | "north_am
   "United Kingdom": "europe",
 };
 
+/** Map a raw position string into one coarse group for fuzzy matching. */
 function groupPosition(position: string): PositionGroup {
   const value = position.toUpperCase();
   if (value.includes("PG") || value.includes("SG") || value === "G") return "guard";
@@ -112,19 +116,24 @@ function groupPosition(position: string): PositionGroup {
   return "unknown";
 }
 
+/** Compare two scalar values with exact-or-far semantics. */
 function compareExact(a: string | number | null, b: string | number | null): ValueFeedback {
+  // Empty/null values are treated as unknown to avoid false negatives.
   if (a === null || b === null || a === "" || b === "") return UNKNOWN;
   return a === b ? EXACT : { status: "far" };
 }
 
+/** Compare detailed positions, then fallback to coarse position groups. */
 function comparePosition(guess: Player, target: Player): ValueFeedback {
   if (!guess.position || !target.position) return UNKNOWN;
   if (guess.position === target.position) return EXACT;
+  // e.g. PG vs SG should still be considered close (both guards).
   return groupPosition(guess.position) === groupPosition(target.position)
     ? { status: "close" }
     : { status: "far" };
 }
 
+/** Compare teams with exact team match first, then same-division proximity. */
 function compareTeamByDivision(guessTeam: string, targetTeam: string): ValueFeedback {
   if (!guessTeam || !targetTeam) return UNKNOWN;
   if (guessTeam === targetTeam) return EXACT;
@@ -134,6 +143,7 @@ function compareTeamByDivision(guessTeam: string, targetTeam: string): ValueFeed
   return guessDivision === targetDivision ? { status: "close" } : { status: "far" };
 }
 
+/** Compare countries with exact match first, then same-continent proximity. */
 function compareCountryByContinent(guessCountry: string, targetCountry: string): ValueFeedback {
   if (!guessCountry || !targetCountry) return UNKNOWN;
   if (guessCountry === targetCountry) return EXACT;
@@ -143,6 +153,10 @@ function compareCountryByContinent(guessCountry: string, targetCountry: string):
   return guessContinent === targetContinent ? { status: "close" } : { status: "far" };
 }
 
+/**
+ * Compare two numbers and return distance tier + direction hint.
+ * direction=up means target is greater than guessed value.
+ */
 function compareNumeric(
   guessValue: number | null,
   targetValue: number | null,
@@ -153,6 +167,7 @@ function compareNumeric(
   if (guessValue === targetValue) return EXACT;
 
   const delta = Math.abs(guessValue - targetValue);
+  // Frontend uses this for arrow rendering.
   const direction = guessValue < targetValue ? "up" : "down";
 
   if (delta <= nearThreshold) return { status: "near", direction };
@@ -160,6 +175,7 @@ function compareNumeric(
   return { status: "far", direction };
 }
 
+/** Parse jersey number into integer; return null for non-numeric values. */
 function parseJerseyNumber(value: string): number | null {
   const trimmed = value.trim();
   if (!trimmed) return null;
@@ -168,7 +184,9 @@ function parseJerseyNumber(value: string): number | null {
   return Number.isNaN(parsed) ? null : parsed;
 }
 
+/** Build one guess feedback payload consumed by the game table UI. */
 export function buildGuessFeedback(guessPlayerId: string, targetPlayerId: string): GuessFeedback {
+  // Resolve both players from shared data source.
   const guess = getPlayerById(guessPlayerId);
   const target = getPlayerById(targetPlayerId);
   if (!guess || !target) {
@@ -182,6 +200,7 @@ export function buildGuessFeedback(guessPlayerId: string, targetPlayerId: string
     guessedName: guess.enName,
     isCorrect: guess.playerId === target.playerId,
     team: compareTeamByDivision(guess.team, target.team),
+    // Prefer numeric compare for jersey when both sides are numeric.
     jersey:
       guessedJersey !== null && targetJersey !== null
         ? compareNumeric(guessedJersey, targetJersey, THRESHOLDS.jersey.near, THRESHOLDS.jersey.close)
@@ -201,5 +220,3 @@ export function buildGuessFeedback(guessPlayerId: string, targetPlayerId: string
     ),
   };
 }
-
-

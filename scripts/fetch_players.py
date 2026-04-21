@@ -121,6 +121,7 @@ def fetch_regular_stats() -> dict[int, dict[str, Any]]:
             "playerId": str(player_id),
             "enName": str(item.get("PLAYER_NAME") or "").strip(),
             "team": str(item.get("TEAM_ABBREVIATION") or "").strip(),
+            "gamesPlayed": gp,
             "ppg": clean_float(item.get("PTS")),
             "apg": clean_float(item.get("AST")),
             "rpg": clean_float(item.get("REB")),
@@ -210,6 +211,7 @@ def build_dataset() -> list[dict[str, Any]]:
                 "rpg": stat.get("rpg"),
                 "playoffAppearances": playoff_counts.get(pid, 0),
                 "mpg": stat.get("mpg"),
+                "gamesPlayed": stat.get("gamesPlayed"),
                 "activeInSeason": ACTIVE_SEASON,
             }
         )
@@ -223,9 +225,9 @@ def main() -> None:
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(players, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    easy = sum(1 for p in players if (p.get("mpg") or 0) >= 25)
-    normal = sum(1 for p in players if (p.get("mpg") or 0) >= 20)
-    hard = sum(1 for p in players if (p.get("mpg") or 0) >= 15)
+    easy = sum(1 for p in players if (p.get("mpg") or 0) >= 25 and (p.get("gamesPlayed") or 0) >= 20)
+    normal = sum(1 for p in players if (p.get("mpg") or 0) >= 20 and (p.get("gamesPlayed") or 0) >= 15)
+    hard = sum(1 for p in players if (p.get("mpg") or 0) >= 15 and (p.get("gamesPlayed") or 0) >= 10)
 
     print(f"Wrote {len(players)} players to {OUTPUT_PATH}")
     print(f"Pools -> easy:{easy} normal:{normal} hard:{hard}")

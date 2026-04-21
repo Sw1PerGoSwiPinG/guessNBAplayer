@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   description: "Guess the 2025-26 NBA regular season player in 8 rounds.",
 };
 
+/** Global app layout wrapper for all routes. */
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="zh-CN">

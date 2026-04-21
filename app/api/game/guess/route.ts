@@ -10,7 +10,9 @@ const bodySchema = z.object({
   playerId: z.string().min(1),
 });
 
+/** Submit one guess, update session state, and return feedback payload. */
 export async function POST(request: Request): Promise<NextResponse> {
+  // Normalize bad JSON body to {}, then validate contract.
   const raw = await request.json().catch(() => ({}));
   const parsed = bodySchema.safeParse(raw);
   if (!parsed.success) {
@@ -18,6 +20,7 @@ export async function POST(request: Request): Promise<NextResponse> {
   }
 
   const session = await readSession();
+  // Prevent cross-game requests: gameId in body must match cookie session.
   if (!session || session.gameId !== parsed.data.gameId) {
     return NextResponse.json({ error: "No active game session." }, { status: 400 });
   }
@@ -31,6 +34,7 @@ export async function POST(request: Request): Promise<NextResponse> {
   }
 
   const poolIds = new Set(getDifficultyPool(session.difficulty as Difficulty).map((player) => player.playerId));
+  // Only allow guesses from current difficulty pool.
   if (!poolIds.has(guessed.playerId)) {
     return NextResponse.json({ error: "Player not available in current difficulty pool." }, { status: 400 });
   }
@@ -48,6 +52,7 @@ export async function POST(request: Request): Promise<NextResponse> {
   session.updatedAt = new Date().toISOString();
   await writeSession(session);
 
+  // Reveal target only after final loss.
   const revealedTarget = session.status === "lost" ? (getPlayerById(session.targetPlayerId) ?? null) : null;
 
   return NextResponse.json({
@@ -70,6 +75,7 @@ export async function POST(request: Request): Promise<NextResponse> {
       heightCm: guessed.heightCm,
       ppg: guessed.ppg,
       playoffAppearances: guessed.playoffAppearances,
+      gamesPlayed: guessed.gamesPlayed,
     },
     target:
       revealedTarget === null
@@ -81,5 +87,3 @@ export async function POST(request: Request): Promise<NextResponse> {
           },
   });
 }
-
-

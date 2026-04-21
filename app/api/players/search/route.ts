@@ -6,9 +6,11 @@ const querySchema = z.object({
   q: z.string().trim().min(1).max(40),
 });
 
+/** Search API for player picker dropdown. */
 export async function GET(request: Request): Promise<NextResponse> {
   const url = new URL(request.url);
   const parsed = querySchema.safeParse({ q: url.searchParams.get("q") ?? "" });
+  // Invalid query returns empty list instead of error for smoother UX.
   if (!parsed.success) {
     return NextResponse.json({ items: [] });
   }
@@ -23,5 +25,3 @@ export async function GET(request: Request): Promise<NextResponse> {
 
   return NextResponse.json({ items: players });
 }
-
-
