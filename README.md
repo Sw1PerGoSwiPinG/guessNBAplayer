@@ -8,9 +8,9 @@
 - 玩家最多 8 回合输入球员姓名（支持中英文与别名）
 - 每次猜测返回多维反馈：正确 / 很接近 / 接近 / 差距大 + 数值方向箭头
 - 三档难度：
-  - Easy：`mpg >= 25`
-  - Normal：`mpg >= 20`
-  - Hard：`mpg >= 15`
+  - Easy：`mpg >= 25 && gamesPlayed >= 20`
+  - Normal：`mpg >= 20 && gamesPlayed >= 15`
+  - Hard：`mpg >= 15 && gamesPlayed >= 10`
 - 本地战绩统计（胜率、连胜）
 
 ## 技术栈
@@ -53,7 +53,7 @@ npx playwright install
 
 ## ETL（全量抓取）
 
-已提供基于 NBA 官方统计接口的全量 ETL：
+已提供基于 NBA 官方统计接口的一体化 ETL（一次执行抓全）：
 
 ```bash
 npm run etl:players
@@ -66,7 +66,18 @@ npm run etl:players
 并抓取字段：
 
 - `playerId, enName, zhName, aliases, team, jersey, position, heightCm, country`
-- `draftYear, draftPick, careerYears, ppg, apg, rpg, playoffAppearances, mpg`
+- `draftYear, draftPick, age, ppg, apg, rpg, playoffAppearances, mpg, gamesPlayed`
+
+## 数据统计
+
+```bash
+npm run data:stats
+```
+
+会输出：
+
+- 总球员数
+- 三个难度池的球员数量
 
 ## 数据质量校验
 

@@ -12,6 +12,7 @@
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "etl:players": "python scripts/fetch_players.py",
+    "data:stats": "python scripts/stats_players.py",
     "data:check": "python scripts/validate_players.py"
   },
   "keywords": [

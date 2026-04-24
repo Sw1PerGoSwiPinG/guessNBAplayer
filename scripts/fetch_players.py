@@ -81,6 +81,16 @@ def clean_float(value: Any, digits: int = 1) -> float | None:
     return round(v, digits)
 
 
+def clean_age(value: Any) -> int | None:
+    try:
+        v = float(value)
+    except Exception:  # noqa: BLE001
+        return None
+    if math.isnan(v) or v <= 0:
+        return None
+    return int(v)
+
+
 def make_aliases(en_name: str, zh_name: str) -> list[str]:
     aliases = set()
     aliases.add(en_name.lower())
@@ -121,6 +131,7 @@ def fetch_regular_stats() -> dict[int, dict[str, Any]]:
             "playerId": str(player_id),
             "enName": str(item.get("PLAYER_NAME") or "").strip(),
             "team": str(item.get("TEAM_ABBREVIATION") or "").strip(),
+            "age": clean_age(item.get("AGE")),
             "gamesPlayed": gp,
             "ppg": clean_float(item.get("PTS")),
             "apg": clean_float(item.get("AST")),
@@ -205,7 +216,7 @@ def build_dataset() -> list[dict[str, Any]]:
                 "country": profile.get("country") or "Unknown",
                 "draftYear": profile.get("draftYear"),
                 "draftPick": profile.get("draftPick"),
-                "age": None,
+                "age": stat.get("age"),
                 "ppg": stat.get("ppg"),
                 "apg": stat.get("apg"),
                 "rpg": stat.get("rpg"),

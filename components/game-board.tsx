@@ -516,17 +516,22 @@ export function GameBoard() {
 
   return (
     <main className="min-h-screen bg-[radial-gradient(circle_at_top,rgba(34,197,94,0.22),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(14,116,144,0.25),transparent_30%),linear-gradient(135deg,#0a0f1e,#111827_55%,#0f172a)] text-zinc-50">
-      <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 px-4 py-8 md:px-8">
+      <div className="mx-auto flex w-full max-w-7xl flex-col gap-5 px-3 py-6 sm:px-4 md:gap-6 md:px-6 lg:px-8">
         <section className="relative z-50 overflow-visible rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur">
-          <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_360px]">
+          <div className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_minmax(280px,360px)]">
             <div>
               {/* <p className="text-xs uppercase tracking-[0.2em] text-emerald-300">NBA 猜球员</p> */}
-              <h1 className="mt-2 text-3xl font-semibold md:text-4xl text-emerald-300">NBA 球员猜谜<span className="ml-2 text-base text-zinc-300">  (数据以 25-26 赛季常规赛为准)</span></h1>
-              <p className="mt-2 text-sm text-zinc-300">系统随机选定一名球员，你需要在 8 回合内猜中。搜索支持中英文姓名和常见外号。</p>
+              <h1 className="mt-1 text-2xl font-semibold text-emerald-300 sm:text-3xl lg:text-4xl">
+                NBA 球员猜谜
+                <span className="mt-1 block text-sm font-normal text-zinc-300 sm:ml-2 sm:mt-0 sm:inline sm:text-base">
+                  （数据以 25-26 赛季常规赛为准）
+                </span>
+              </h1>
+              <p className="mt-2 text-sm text-zinc-300 sm:text-[15px]">系统随机选定一名球员，你需要在 8 回合内猜中。搜索支持中英文姓名和常见外号。</p>
 
               <div className="mt-4 flex flex-wrap items-center gap-2">
                 <RuleHelpButton />
-                <div className="flex items-center gap-2 rounded-full border border-white/15 bg-black/20 px-4 py-2 text-sm">
+                <div className="flex flex-wrap items-center gap-2 rounded-full border border-white/15 bg-black/20 px-4 py-2 text-sm">
                   <Trophy className="size-4 text-amber-300" />
                   <span className="text-sm text-zinc-300">剩余回合</span>
                   <div className="flex items-center gap-1">
@@ -555,7 +560,7 @@ export function GameBoard() {
                   <button
                     key={mode}
                     className={cn(
-                      "w-[150px] rounded-2xl border px-3 py-2 text-center text-sm font-semibold transition",
+                      "min-w-[94px] flex-1 rounded-2xl border px-3 py-2 text-center text-sm font-semibold transition sm:min-w-[110px] md:flex-none md:w-[136px] lg:w-[150px]",
                       difficulty === mode
                         ? "border-emerald-300 bg-emerald-500/20"
                         : "border-white/10 bg-white/5 hover:border-white/25 hover:bg-white/10",
@@ -584,8 +589,8 @@ export function GameBoard() {
               ) : null}
             </div>
 
-            <div className="flex justify-end gap-2 lg:-ml-2">
-              <div className="w-[320px]">
+            <div className="flex w-full items-start justify-between gap-2 xl:justify-end xl:-ml-2">
+              <div className="w-full max-w-[430px] xl:max-w-[320px] 2xl:max-w-[360px]">
                 <div className="relative aspect-[4/3] overflow-hidden rounded-xl border border-white/10 bg-zinc-900/80">
                   {mysteryImageUrl ? (
                     <img
@@ -607,7 +612,7 @@ export function GameBoard() {
                 </div>
               </div>
 
-              <div className="flex w-10 flex-col items-center gap-2">
+              <div className="ml-1 flex w-10 shrink-0 flex-col items-center gap-2">
                 <a
                   href="https://github.com/Sw1PerGoSwiPinG/guessNBAplayer"
                   target="_blank"
@@ -630,7 +635,7 @@ export function GameBoard() {
         </section>
 
         <section className="relative z-10 rounded-3xl border border-white/10 bg-white/5 p-4 backdrop-blur md:p-6">
-          <div className="flex flex-col gap-3 md:flex-row">
+          <div className="flex flex-col gap-3 lg:flex-row">
             <div className="relative flex-1">
               <Search className="pointer-events-none absolute left-3 top-3.5 size-4 text-zinc-400" />
               <input
@@ -667,14 +672,14 @@ export function GameBoard() {
               ) : null}
             </div>
             <button
-              className="rounded-xl bg-emerald-400 px-4 py-3 text-sm font-semibold text-zinc-900 transition hover:bg-emerald-300 disabled:cursor-not-allowed disabled:opacity-50"
+              className="rounded-xl bg-emerald-400 px-4 py-3 text-sm font-semibold text-zinc-900 transition hover:bg-emerald-300 disabled:cursor-not-allowed disabled:opacity-50 lg:min-w-[110px]"
               onClick={() => void submitGuess()}
               disabled={!selectedPlayer || status !== "ongoing" || loading}
             >
               提交猜测
             </button>
             <button
-              className="rounded-xl border border-white/20 bg-white/5 px-4 py-3 text-sm transition hover:bg-white/10"
+              className="rounded-xl border border-white/20 bg-white/5 px-4 py-3 text-sm transition hover:bg-white/10 lg:min-w-[110px]"
               onClick={() => void createGame(difficulty)}
               disabled={loading}
             >
@@ -687,7 +692,7 @@ export function GameBoard() {
 
           <div className="mt-4 rounded-2xl border border-emerald-300/30 bg-emerald-500/10 p-3">
             <p className="text-xs uppercase tracking-[0.15em] text-emerald-200">当前线索汇总（置顶）</p>
-            <div className="mt-2 grid gap-2 md:grid-cols-5">
+            <div className="mt-2 grid gap-2 sm:grid-cols-2 lg:grid-cols-5">
               {fields.map((field) => (
                 <div key={field} className="rounded-lg border border-white/10 bg-black/25 p-2">
                   <p className="text-[11px] text-zinc-300">{fieldLabels[field]}</p>
@@ -699,8 +704,8 @@ export function GameBoard() {
         </section>
 
         <section className="overflow-hidden rounded-3xl border border-white/10 bg-black/20">
-          <div className="overflow-x-hidden">
-            <table className="w-full table-fixed text-xs md:text-sm">
+          <div className="overflow-x-auto">
+            <table className="min-w-[880px] w-full table-fixed text-xs md:text-sm">
               <thead className="bg-white/5 text-zinc-300">
                 <tr>
                   <th className="px-2 py-3 text-center">猜测球员</th>
@@ -796,7 +801,7 @@ function RuleHelpButton() {
       <span className="inline-flex items-center rounded-full border border-white/15 bg-black/20 px-4 py-2 text-sm leading-5 text-zinc-300 transition hover:bg-black/30">
         规则说明
       </span>
-      <div className="pointer-events-none invisible absolute right-0 top-11 z-40 w-[360px] rounded-2xl border border-white/15 bg-slate-950/95 p-4 text-xs leading-5 text-zinc-200 opacity-0 shadow-2xl transition duration-150 group-hover:visible group-hover:opacity-100 md:w-[460px]">
+      <div className="pointer-events-none invisible absolute right-0 top-11 z-40 w-[min(460px,calc(100vw-2rem))] rounded-2xl border border-white/15 bg-slate-950/95 p-4 text-xs leading-5 text-zinc-200 opacity-0 shadow-2xl transition duration-150 group-hover:visible group-hover:opacity-100">
         <p className="mb-2 text-sm font-semibold text-white">符号含义</p>
         <p>1. 可量化字段（号码、年龄、选秀年/顺位、身高、得分、季后赛次数）：`↑` 目标更大，`↓` 目标更小，`✓` 完全命中。</p>
         <p>2. 不可量化字段（队伍、国家、位置）：`✓` 命中，`✕` 不匹配，`≈` 接近（队伍同分区、国家同大洲、位置同大类）。</p>
